@@ -201,7 +201,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -241,7 +241,7 @@
        xml:space="preserve"
        id="flowRoot3066"
        style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter6890);font-family:Arial;-inkscape-font-specification:Arial"
-       transform="matrix(1.3120616,0,0,1.2853225,-115.91256,-68.4913)"
+       transform="matrix(1.3120616,0,0,1.2853225,-111.91256,-68.4913)"
        inkscape:export-filename="/home/yky/latex/paranoia/title.png"
        inkscape:export-xdpi="200"
        inkscape:export-ydpi="200"><flowRegion
@@ -252,7 +252,7 @@
            x="105"
            y="32.362183" /></flowRegion><flowPara
          id="flowPara3072"
-         style="font-size:169.41018677px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;font-family:AR PL UKai HK;-inkscape-font-specification:AR PL UKai HK">妄想症</flowPara></flowRoot>    <flowRoot
+         style="font-size:169.41018677px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;font-family:AR PL UKai HK;-inkscape-font-specification:AR PL UKai HK">臆想症</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot3066-8"
        style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#b3b3b3;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
