@@ -73,9 +73,25 @@
 \newcommand*\smiley{\includegraphics[scale=0.5]{smiley.jpg}}
 %\newcommand*\vignette{\centering{\color{blue} --- \quad $\diamond$ \quad --- \quad $\diamond$ \quad --- \quad $\diamond$ \quad --- }\par}
 %\newcommand*\vignette{\begin{center}\color{blue}  --- \quad \S \quad --- \quad \S \quad --- \quad \S \quad --- \end{center}}
-\newcommand*\vignette{\begin{center}\includegraphics[scale=]{vignette1.jpg}\end{center}}
+%\newcommand*\vignette{\begin{center}\includegraphics[scale=0.5]{vignette1.jpg}\end{center}}
 \newcommand*\todo{\begin{center}\color{red}  \rule{5cm}{0.5pt} 以下是草稿\, \rule{5cm}{0.5pt} \end{center}}
 \newcommand*\dashh{\textemdash\,\,}
+
+%%%%%%%%%%%%%%%%%%%%%%% vignette command %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+\newcount\sk@vignette
+\newcommand*\vignette[1][]{\begingroup
+\ifx\@empty#1\@empty
+    \global\advance\sk@vignette by\@ne\relax
+\else
+    \sk@vignette=#1\relax
+\fi
+\ifnum\sk@vignette>18\relax
+\sk@vignette=\@ne\relax
+\fi
+\begin{center}\includegraphics[scale=0.5]{vignette\the\sk@vignette.jpg}\end{center}
+\endgroup}
+\makeatother
 
 \setlength{\oddsidemargin}{0cm}
 \setlength{\evensidemargin}{0cm}
@@ -538,7 +554,7 @@ a tender look which becomes a habit}}
 
 \vignette
 
-那\uline{中国}女孩身材有点矮矮胖胖的，和我堂妹一样（也和我妈一样），但我初时没有联想起来。
+那\uline{大陆}女孩身材有点矮矮胖胖的，和我堂妹一样（也和我妈一样），但我初时没有联想起来。
 
 我们在散步，地上有一块「小心地滑」的牌，她看了后侧著身轻轻地滑了几下，说是『小心地 ~滑』。 那姿势令我想起堂妹跳蹦蹦时也是这个模样。
 
@@ -552,7 +568,7 @@ a tender look which becomes a habit}}
 
 我说： 我可以教妳怎样变聪明点，但即使妳改变了，我也不会喜欢妳，正如一个雕塑家不会爱上自己雕的石像，我也不能将妳打扮得性感漂亮 ~然后爱上妳，因为那就不是「爱」而是「自慰」。
 
-我著意开导她，令她不再犯我当年犯的错误，但她就像一个考全A的女生，将所有功课交齐： 我以前对堂妹所做的每一件卑劣的事，她像有只第三眼那样回赠给我，真令我感到「天网恢恢，疏而不漏」。 有一次我在纽约的唐人街买了一盒人参给堂妹她们， 因为我觉得人参是\uline{中国}特产，可以令堂妹想起我们本是同根生，而且我记得妈妈小时候对我说，有些人参生长得像人形，濒死的病人吃了也可以起死回生，令我觉得很神秘。 我送了给她们，她姊姊对我说：『谢谢你啊，这人参含有 stimulant，吃了感觉精神很多。』  其实她婉委的意思是说，不要迷信人参是神奇的药，它只是含有一些化学成份。 我自小喜欢科学，讨厌迷信，但我糊里糊涂地选择了这样的礼物给她们，目的是想说： 为甚么嫌弃我落后呢，妳们陪我一起落后不好吗？ 后来我转了读生物化学，整个人彻头彻尾地科学化了，那次「人参事件」为迷信的棺材钉上了最后一口钉。
+我刻意地开导她，令她不再犯我当年犯的错误，但她就像一个考全A的女生，将所有功课交齐： 我以前对堂妹所做的每一件卑劣的事，她像有只第三眼那样回赠给我，真令我感到「天网恢恢，疏而不漏」。 有一次我在纽约的唐人街买了一盒人参给堂妹她们， 因为我觉得人参是\uline{中国}特产，可以令堂妹想起我们本是同根生，而且我记得妈妈小时候对我说，有些人参生长得像人形，濒死的病人吃了也可以起死回生，令我觉得很神秘。 我送了给她们，她姊姊对我说：『谢谢你啊，这人参含有 stimulant，吃了感觉精神很多。』  其实她婉委的意思是说： 不要迷信人参是神奇的药，它只是含有一些化学成份。 我自小喜欢科学，讨厌迷信，但我糊里糊涂地选择了这样的礼物给她们，目的是想说： 为甚么嫌弃我落后呢，妳们陪我一起落后不好吗？ 后来我转了读生物化学，整个人彻头彻尾地科学化了，那次「人参事件」为迷信的棺材钉上了最后一口钉。
 
 其实所有「初到贵境」的\uline{美国}华侨，都要经历过这些学习，每年成千上万的新移民经历著同样的事....
 
@@ -601,11 +617,13 @@ a tender look which becomes a habit}}
 
 我真的觉得呼吸困难。 她、妈妈、堂妹 ~简直是三胞胎。 我不想打她，因为我要做得比堂妹更好。  但她的荒谬行径和说话，好几次令我想狠狠地掴她、想用尽全力地用腿将她撑开，让她飞撞到床外的电视机上。  我最终没有打她，但已经愤怒得身体在发抖。  我又想起来了.... 『有些女人就是喜欢将男人激到暴跳如雷....』
 
-我仿佛听见她在说 \\
-\tab \dashh 终於尝到身材矮小，腿又变不长的滋味了？ \\
+我仿佛听见她在讥笑我 \\
+\tab \dashh 你现在终於尝到身材矮小，腿又变不长的滋味了？ \\
 会不会天生有缺憾的人，将他们的痛苦像毒瘤那样移植到别人身上？  但我又想： 应该不会有那么阴险的人吧，怪错了她？  堂妹也常常骂我下流，但有时我也莫名其妙，自己不算那么卑劣吧？
 
-有缺陷的人也可以是好人，但有缺陷不代表他们有权加害那些较幸福的人。 如果是那样的话，中国有那么多样子长得丑的人，岂不是要变世界强国了？  但中国正在变世界强国啊....
+有缺陷的人也可以是好人，但有缺陷不代表他们有权加害那些较幸福的人。 如果是那样的话，\uline{中国}有那么多样子长得丑的人，岂不是要变世界强国了？
+
+但\uline{中国}真的正在变世界强国啊....
 
 \vignette
 
@@ -613,7 +631,9 @@ a tender look which becomes a habit}}
 
 我想到她可能是个阴险的人，可能会因为妒忌而在我睡觉时用剪刀刺死我，所以我也反锁上门，才敢躺在床上睡。
 
-但又想起在大陆很多贫苦地方，很多人吃不到肉。 在睡房里哭了....
+但又想起在\uline{大陆}很多贫苦地方，很多人吃不到肉.... 在睡房里哭了。
+
+
 
 「交换」是假的.... 她两次都不喜欢我....
 
@@ -775,6 +795,12 @@ $$ \mbox{我} : \mbox{堂妹} = \mbox{香港人} : \mbox{我。} $$
 《圣经》里，\uline{摩西}想带\uline{以色列}人走出\uline{埃及}，但初时人们反对他，说什么「我们现在做奴隶做得好好的，为什么要走？」 在《Waiting for Godot\footnote{等待果陀 (1953)}》剧里有个人像只狗那样被人用绳索拖着四脚走动，主角想解开他反被他咬。 据说 Che Guevara\footnote{(1928-1967)}帮助非洲人打游击战，被当地士兵的散漫态度弄到心力交瘁； Byron\footnote{(1788-1824)}也试图帮助希腊独立战争，因军队的士气低落而过劳致死。 那个叫「\uline{耶稣}」的人，也是在类似的情况下被人出卖而死的。 还有太多这样的例子.... ( ? )
 
 我常想起\uline{耶稣}钉十字架时身旁的两个小偷，他们说『你既然是神的儿子，为什么落得和我们一样下场？』 我的目的就是要不死。
+
+\begin{center}
+\dashh 完 \dashh \par
+
+\includegraphics[scale=0.5]{vignette0.jpg}
+\end{center}
 
 %\chapter*{Appendix: XXXX}
 
