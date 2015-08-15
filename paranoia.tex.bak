@@ -98,6 +98,10 @@
 \setlength{\textwidth}{16.5cm}
 \linespread{1.3}
 
+%%%%%%%%%%%%%%%%%%%%% count number of words
+% \immediate\write18{/home/yky/latex/paranoia/count-words.sh}
+\immediate\write18{bash ./count-words.sh > word-count.txt}
+
 \begin{document}
 
 \includepdf{cover1}
@@ -141,6 +145,8 @@
 很多地方写得不好，但我想尽快发表这个草稿，以后还会修改和添补。
 
 欢迎读者们提问或提供意见： general.intelligence@gmail.com
+
+字数： 约~ \input{word-count.txt} 字
 
 封面插图：  Nami-Tsuki, ``Paranoia or something'', DeviantArt.com
 \end{framed}
