@@ -126,13 +126,6 @@
 
 \large
 
-\tab\tab\tab \parbox{9cm}{\textit{Love is an act of endless forgiveness,\\
-a tender look which becomes a habit}}
-\vspace{0.5cm}
-\begin{flushright}
-\dashh Peter Ustinov \hspace*{3cm}
-\end{flushright}
-
 {\let\newpage\relax\maketitle}
 
 \maketitle
@@ -143,7 +136,7 @@ a tender look which becomes a habit}}
 \small
 
 \begin{framed}
-这本自传的起源是回答《知乎 www.zhihu.com》网站的问题『精神分裂症患者眼中的世界是什么样的？』
+这本书的起源是回答《知乎 www.zhihu.com》网站的问题『精神分裂症患者眼中的世界是什么样的？』
 
 很多地方写得不好，但我想尽快发表这个草稿，以后还会修改和添补。
 
@@ -152,6 +145,33 @@ a tender look which becomes a habit}}
 封面插图：  Nami-Tsuki, ``Paranoia or something'', DeviantArt.com
 \end{framed}
 \large
+
+\newpage
+
+\tab\tab\tab \parbox{9cm}{\textit{Love is an act of endless forgiveness,\\
+a tender look which becomes a habit}}
+\vspace{0.5cm}
+\begin{flushright}
+\dashh Peter Ustinov \hspace*{3cm}
+\end{flushright}
+
+\vspace{3cm}
+
+\begin{center}
+{\Large 内容撮要}\par
+\vspace{0.5cm}
+
+\parbox{0.8\textwidth}{
+本书主要围绕两个问题：\par
+
+\begin{enumerate}
+\item 究竟堂妹有没有骗我？ 还是我恼羞成怒？ 我为什么怒到想杀了她？ 
+\item 究竟是我有精神病，还是香港人／美国人都错了？
+\end{enumerate}
+
+希望聪明的读者能帮我解答这些问题。
+}
+\end{center}
 
 \dominitoc
 \tableofcontents
