@@ -46,6 +46,7 @@
 \usepackage{tikz-cd}		% commutative diagrams
 \usepackage{setspace}		% reduce line spacing for code
 \usepackage[normalem]{ulem}	 % such that \underline won't overflow
+\usepackage{lastpage}		% get total number of pages
 
 \xeCJKsetup{CJKecglue = {\hskip 0.1em plus 0.02em minus 0.01em},
   xCJKecglue = {\hskip 0.1em plus 0.02em minus 0.01em}}
@@ -146,15 +147,13 @@
 \small
 
 \begin{framed}
-这本书的起源是回答《知乎 www.zhihu.com》网站的问题『精神分裂症患者眼中的世界是什么样的？』
-
-很多地方写得不好，但我想尽快发表这个草稿，以后还会修改和添补。
+这本书的起源是回答《知乎 www.zhihu.com》网站的问题『精神分裂症患者眼中的世界是什么样的？』 ~很多地方写得不好，但我想尽快发表这个草稿，以后还会修改和添补。
 
 欢迎读者们提问或提供意见： general.intelligence@gmail.com
 
-字数： \input{word-count.txt}
+字数： \input{word-count.txt}  ~~~\pageref*{LastPage} 页
 
-封面插图：  Nami-Tsuki, ``Paranoia or something'', DeviantArt.com
+封面插图：  谢谢 Nami-Tsuki (Jessica Allen) 的画作 ``Paranoia or something'', DeviantArt.com
 \end{framed}
 \large
 
@@ -185,7 +184,7 @@ a tender look which becomes a habit}}
 }
 \end{center}
 
-\dominitoc
+% \dominitoc
 \tableofcontents
 
 \chapter{臆想症}
@@ -882,9 +881,90 @@ $$ \mbox{我} : \mbox{堂妹} = \mbox{香港人} : \mbox{我。} $$
 \includegraphics[scale=0.5]{vignette0.jpg}
 \end{center}
 
-%\chapter*{Appendix: XXXX}
+\chapter*{附录 A ~~~ 关於精神科药物}
+\addcontentsline{toc}{chapter}{附录 A ~ 关於精神科药物}
+
+实在有太多精神科药物的受害者，我觉得要写篇比较详细的解释，不用每次重复。
+
+首先，人脑是靠这些神经细胞来思考的：
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.4]{neuron.pdf}
+\end{figure}
+
+每个神经细胞，由 dendrites 收集讯号，处理讯息后，经由 axon 传到别的神经细胞。 那些讯号是电讯号，有点像在电脑里面的情况。
+
+人的喜怒哀乐、意识、思维、感觉、等，都是由这些神经讯号的运算产生的。 所以，脑死亡后便再没有意识，死亡就像灯的熄灭。
+
+这是显微镜下(染了色)的神经细胞：
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.25]{neuron_in_tissue_culture.jpg}
+\end{figure}
+
+神经细胞之间的接点，叫 synapse「凸触」; 电讯号传到接点，便要靠一些化学分子来传递，它们即 neurotransmitter 「神经传播分子」。
+
+精神科药物的原理，就是阻碍这些分子的传递 (blocking)。
+
+例如，有一种神经传播分子叫 serotonin (血清素)，「开心药」就是靠提升这分子而令病人的心情变好。
+
+另一个神经传播分子是 dopamine，它负责人的动机和欲望，有很多控制精神分裂 (「发疯」) 的药物就抑制这个分子。 吃了，人会失去动机，连性欲也无，变得无精打彩，所以你们见精神病院里，那么多人像发呆似的行尸走肉。
+
+人脑是一个很复杂的结构： 大脑分为很多区域 (brain areas)； 大脑皮层有神经细胞，而脑中的白色物质是皮层之间的连线。 这些区域之间的连线图，可能比\uline{伦敦}地下铁图复杂几百倍，我们现在有没有这幅详细地图都成问题。 而，单是那皮层 (已经很薄) 也分为 6 层，每层之间有反覆的连络，其结构为什么如此，至今仍是一个谜。 脑里的神经细胞是地球人口的数十倍。 单一个神经细胞如何处理讯号？ 那需要靠电流的微分方程解释。 而每个细胞又有成千上万的「突触」接收讯号。 更糟的是，那些化学信号的传播分子，种类也可能有几百以上，究竟有几多种还是未知之数。 刚才说的 serotonin 和 dopamine，只不过是最多见的那几种； 它们令到每个讯号都可能有性质上的不同。 这起码算概括了大脑的复杂性的规模。
+
+简言之，科学家们根本弄不清人脑是如何思考； 距离这目标，我们还起码差几个\uline{诺贝尔}得奖者的努力，甚至那也是保守估计！
+
+我们现时有些很笼统的知识，例如： serotonin 是「开心」、dopamine 是「动机」、某些地区例如 hippocampus 负责记忆、amygdala 负责感情 (如恐惧)、别的地区负责语言、视觉、等。
+
+这些笼统的知识根本无法详细解释人们为什么有各式各样的精神病。
+
+再看这是 serotonin 和 dopamine 在脑中的分布：
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.4]{dopamine_serotonin.png}
+\end{figure}
+
+早期的药物会把 (例如) 所有 dopamine 的接收都阻塞，但新药物能把某一特类 (sub-type) 的 dopamine 接收器阻塞。 但究竟每一类 dopamine 接收器的作用是什么？ 我们不太明了。 那些所谓精神科药物的「专家」，就是在病人身上试试阻塞这个、阻塞那个、看看有什么反应。 你说可不可悲？
+
+而且，由於正常的神經系統也會被阻塞了，那些服藥的病人通常是會較不服藥早死的。 例如他們會手震得很厲害，像心臟衰竭的老人。 而且吃了藥之後會坐立不安，是因為身體對這些「毒素」自然的抗拒反應； 很多病人會不斷喝茶，以沖淡藥的作用。 醫生有時會把藥打在病人臂部，那就不能不吃藥。 這樣的折磨本身就已經會令病人精神崩潰。
+
+腦即思想和意識； 能夠控制別人的意識，那是神一般的能力。 有權力就會產生對權力的濫用 (abuse)。
+
+也有些家庭，親人之間互相憎厭的時候就把較弱勢的一方送進精神病院。
+
+破壞別人的腦就等於把那人作為「人」的本質毀滅。
+
+人有各种各样的发疯，有些是先天性的，有些是后天的际遇刺激而起，也可以先天再加后天触发。
+
+有些人遭遇很多不幸： 或者容貌特醜、被人欺壓、欺騙、歧視、被愛人拋棄、或各式各樣的不公平。 他們已經是受害者，還要被加害。
+
+我们俗语常说「你快把我弄疯了」、「爱你爱到发疯」、那正表示某些际遇和感情是会导致精神病的； 但现代精神科 (psychiatry) 把一切解释成「脑内化学的不平衡」，仿佛病人的人生经历是无关的，连常识也违反 —— 这是发什么神经？ 无非是贪钱而已。
+
+在\uline{美国}，精神病药厂每年赚很多亿\uline{美}元，而且他们直接赞助医生们，所以医生开那些药便可以赚多些钱。 药厂也赞助研究，发表对那些药的销售有利的研究结果。 甚至药物管理局 (FDA) 也可以用钱买通； 举例来说，帮小\uline{布殊}总统策划\uline{伊拉克}战事的 Donald Rumsfeld，他从商时曾经为公司帮政府通过以 aspartame 代糖取代 saccharin 代糖，但其实 aspartame 更差，吃多了会头痛\footnote{http://www.rense.com/general33/legal.htm}。 这就是\uline{美国}的资本主义。
+
+最后，解释一下我知識的來源： 我先前研究过如何将人脑的「意識」上载到电脑上 (mind uploading)，所以对神经科学很熟悉。 這是我的一些藏書：
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.5]{neuro-books1.jpg}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.5]{neuro-books2.jpg}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.5]{neuro-books3.jpg}
+\end{figure}
+
+但自 2004 年我開始轉而研究人工智能，因為那技術的影響將會更厲害，大腦之謎也會間接地迎刃而解。
+
+希望這篇文章能幫到我的病友們。
 
 \chapter*{Acknowledgments}
+\addcontentsline{toc}{chapter}{Acknowledgements}
 
 ( Apologize to relatives and friends.... )
 
