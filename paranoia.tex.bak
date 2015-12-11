@@ -6,7 +6,10 @@
 % * "I wish you happy" -- Cate
 
 \documentclass[12pt]{report}
-\usepackage[unicode,
+\usepackage{color}
+% \usepackage[dvipsnames]{xcolor}
+\definecolor{SmurfBlue}{rgb}{0.2,0.4,1.0}  % Smurf Blue
+\usepackage[unicode,colorlinks=true,linkcolor={SmurfBlue},
 	pdfauthor={YKY},
 	pdftitle={Paranoia},
 	pdfsubject={auto-biography},
@@ -34,7 +37,6 @@
 % \usepackage{amsmath}	% for \tag
 \usepackage{amssymb}	% for \multimap
 % \usepackage{stmaryrd}
-\usepackage{color}
 %\usepackage[square,numbers]{natbib}
 %\nocopyright
 %\usepackage{latexsym,amsmath,amssymb,graphicx,hyperref}
@@ -63,16 +65,16 @@
 \renewcommand{\theequation}{\arabic{equation}}
 \renewcommand{\familydefault}{\sfdefault}	% use san-serif font
 
-\titleformat{\chapter}
-{\color{blue}\normalfont\huge}
-{\color{blue}\thechapter\\}{1em}{\flushleft}
-
-\titleformat{\section}
-{\color{blue}\normalfont\large\bfseries}
-{\color{blue}\thesection}{1em}{}
-
 \definecolor{Magenta}{rgb}{0.4,0.1,0.4}  % Magenta
 % \definecolor{LogicColor}{rgb}{0,0,0}	% for black-and-white paper
+
+\titleformat{\chapter}
+{\color{SmurfBlue}\normalfont\huge}
+{\color{SmurfBlue}\thechapter\\}{1em}{\flushleft}
+
+\titleformat{\section}
+{\color{SmurfBlue}\normalfont\large\bfseries}
+{\color{SmurfBlue}\thesection}{1em}{}
 
 \newcommand{\code}[1]{\texttt{\textcolor{Magenta}{\small{#1}}}}
 \newcommand{\tab}{\hspace*{1cm}}
