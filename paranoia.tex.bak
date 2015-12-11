@@ -6,9 +6,8 @@
 % * "I wish you happy" -- Cate
 
 \documentclass[12pt]{report}
-\usepackage{color}
-% \usepackage[dvipsnames]{xcolor}
-\definecolor{SmurfBlue}{rgb}{0.2,0.4,1.0}  % Smurf Blue
+\usepackage{xcolor}
+\definecolor{SmurfBlue}{rgb}{0.0,0.25,0.85}  % Smurf Blue
 \usepackage[unicode,colorlinks=true,linkcolor={SmurfBlue},
 	pdfauthor={YKY},
 	pdftitle={Paranoia},
@@ -125,7 +124,7 @@
 \includepdf[fitpaper=true]{cover1-mong}
 \cleardoublepage
 \title{\Huge{妄想症}}
-\author{YKY (甄景贤)}
+\author{甄景贤}
 % \date{27 May 2015}
 % \institute{}
 
@@ -157,18 +156,24 @@
 
 \small
 
-\begin{framed}
-这本书的起源是回答《知乎 www.zhihu.com》网站的问题『精神分裂症患者眼中的世界是什么样的？』 ~很多地方写得不好，但我想尽快发表这个草稿，以后还会修改和添补。
+% \colorlet{framecolor}{white}
+% \begin{framed}
+\begin{center}
+% 这本书的起源是回答《知乎 www.zhihu.com》网站的问题『精神分裂症患者眼中的世界是什么样的？』 ~很多地方写得不好，但我想尽快发表这个草稿，以后还会修改和添补。
 
-欢迎读者们提问或提供意见： general.intelligence@gmail.com
+% 欢迎读者们提问或提供意见：
+作者电邮： general.intelligence@gmail.com
 
 字数： \input{word-count.txt}  ~~~\pageref*{LastPage} 页
 
-封面插图：  谢谢 Nami-Tsuki (Jessica Allen) 的画作 ``Paranoia or something'', DeviantArt.com
-\end{framed}
+封面插图：  ``Paranoia or something'' \\
+Nami-Tsuki @ DeviantArt.com (Jessica Allen)
+% \end{framed}
+\end{center}
 \large
 
 \newpage
+\pagenumbering{gobble}
 
 \tab\tab\tab \parbox{9cm}{\textit{Love is an act of endless forgiveness,\\
 a tender look which becomes a habit}}
@@ -177,6 +182,7 @@ a tender look which becomes a habit}}
 \dashh Peter Ustinov \hspace*{3cm}
 \end{flushright}
 
+\begin{comment}
 \vspace{3cm}
 
 \begin{center}
@@ -194,11 +200,14 @@ a tender look which becomes a habit}}
 希望聪明的读者能帮我解答这些问题。
 }
 \end{center}
+\end{comment}
 
 % \dominitoc
 \tableofcontents
+\pagenumbering{gobble}
 
 \chapter{妄想症}
+\pagenumbering{arabic}
 
 我有 persecution paranoia (逼害妄想)，特别地叫 Truman Show syndrome。 在《Truman Show》这部 1998 年的电影里，主角活在一齣真人表演里，他身边的人都是演员，但从小欺骗着他，最后他走出了这个骗局。 在外国有很多人有这种妄想，多到形成了症候群的名字。
 
@@ -867,7 +876,12 @@ Ben 是我所见过的最 nerd 的人。 他可以和物理学家谈 quantum chr
 
 \chapter{结论： 历史发展的规律}
 
-有时心灰意冷，为什么打这场种族解放战那么辛苦？ Homer Simpson 说过：如果一件事太辛苦，通常不值得做。 会不会我的民族真的是狗民族？ 为什么那么多香港人热烈地想投向白人的怀抱，不觉羞耻？ 最近又看到电视上有香港人说：『就算你駡我是狗，我也不在意。』
+有时心灰意冷，为什么打这场种族解放战那么辛苦？ Homer Simpson 说：如果一件事太辛苦，通常不值得做。 会不会我的民族真的是狗民族？ 为什么那么多香港人热烈地想投向白人的怀抱，不觉羞耻？ 最近又看到电视上有香港人说：『就算你駡我是狗，我也不在意。』
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.3]{homer-simpson.jpg}
+\end{figure}
 
 有两种 racist 的人： racist 的白人是既得利益者，他们只需靠自己的血统便可以在竞争中获利。 在商业上，如果白人受待遇较好、或取缔能力相当的人而被雇用，那就是种族歧视。 第二类是那些很想做狗的\uline{中国}人，不惜出卖自己的民族，因为他们已经痛苦到做不做狗都没有分别。 但他们并非真的到了穷途末路； 他们痛苦的原因是因为妒忌那些比他们早「变成人」的人，例如我。 用数学公式表示：
 $$ \mbox{我} : \mbox{堂妹} = \mbox{香港人} : \mbox{我。} $$
@@ -934,10 +948,15 @@ $$ \mbox{我} : \mbox{堂妹} = \mbox{香港人} : \mbox{我。} $$
 \includegraphics[scale=0.5]{vignette0.jpg}
 \end{center}
 
+\appendix
+% \addcontentsline{toc}{section}{Appendices}
+\renewcommand{\thechapter}{A}
 \chapter*{附录 A ~~~ 关於精神科药物}
 \addcontentsline{toc}{chapter}{附录 A ~ 关於精神科药物}
 
 实在有太多精神科药物的受害者，我觉得要写篇比较详细的解释，不用每次重复。
+
+\section{人脑是靠神经细胞思考的}
 
 首先，人脑是靠这些神经细胞来思考的：
 \begin{figure}[H]
@@ -955,13 +974,15 @@ $$ \mbox{我} : \mbox{堂妹} = \mbox{香港人} : \mbox{我。} $$
 \includegraphics[scale=0.25]{neuron_in_tissue_culture.jpg}
 \end{figure}
 
-神经细胞之间的接点，叫 synapse「凸触」; 电讯号传到接点，便要靠一些化学分子来传递，它们即 neurotransmitter 「神经传播分子」。
+神经细胞之间的接点，叫 synapse (凸触); \ 电讯号传到接点，便要靠一些化学分子来传递，它们即 neurotransmitter (神经传播分子)。
 
-精神科药物的原理，就是阻碍这些分子的传递 (blocking)。
+精神科药物的原理，就是阻碍(block)这些分子的传递。
 
-例如，有一种神经传播分子叫 serotonin (血清素)，「开心药」就是靠提升这分子而令病人的心情变好。
+例如，有一种神经传播分子叫 serotonin，「开心药」就是靠提升这分子而令病人的心情变好。
 
-另一个神经传播分子是 dopamine，它负责人的动机和欲望，有很多控制精神分裂 (「发疯」) 的药物就抑制这个分子。 吃了，人会失去动机，连性欲也无，变得无精打彩，所以你们见精神病院里，那么多人像发呆似的行尸走肉。
+另一个神经传播分子是 dopamine，它负责人的动机和欲望，有很多控制精神分裂 (「发疯」) 的药物就抑制这个分子。 吃了，人会失去动机，连性欲也无，变得无精打彩，所以你们见精神病院里，那么多人像发呆似的行尸走肉 (``zombie'')。
+
+\section{人脑是个极为复杂的结构}
 
 人脑是一个很复杂的结构： 大脑分为很多区域 (brain areas)； 大脑皮层有神经细胞，而脑中的白色物质是皮层之间的连线。 这些区域之间的连线图，可能比\uline{伦敦}地下铁图复杂几百倍，我们现在有没有这幅详细地图都成问题。 而，单是那皮层 (已经很薄) 也分为 6 层，每层之间有反覆的连络，其结构为什么如此，至今仍是一个谜。 脑里的神经细胞是地球人口的数十倍。 单一个神经细胞如何处理讯号？ 那需要靠电流的微分方程解释。 而每个细胞又有成千上万的「突触」接收讯号。 更糟的是，那些化学信号的传播分子，种类也可能有几百以上，究竟有几多种还是未知之数。 刚才说的 serotonin 和 dopamine，只不过是最多见的那几种； 它们令到每个讯号都可能有性质上的不同。 这起码算概括了大脑的复杂性的规模。
 
@@ -970,6 +991,8 @@ $$ \mbox{我} : \mbox{堂妹} = \mbox{香港人} : \mbox{我。} $$
 我们现时有些很笼统的知识，例如： serotonin 是「开心」、dopamine 是「动机」、某些地区例如 hippocampus 负责记忆、amygdala 负责感情 (如恐惧)、别的地区负责语言、视觉、等。
 
 这些笼统的知识根本无法详细解释人们为什么有各式各样的精神病。
+
+\section{药物的实际作用是令人变呆}
 
 再看这是 serotonin 和 dopamine 在脑中的分布：
 \begin{figure}[H]
@@ -980,6 +1003,8 @@ $$ \mbox{我} : \mbox{堂妹} = \mbox{香港人} : \mbox{我。} $$
 早期的药物会把 (例如) 所有 dopamine 的接收都阻塞，但新药物能把某一特类 (sub-type) 的 dopamine 接收器阻塞。 但究竟每一类 dopamine 接收器的作用是什么？ 我们不太明了。 那些所谓精神科药物的「专家」，就是在病人身上试试阻塞这个、阻塞那个、看看有什么反应。 你说可不可悲？
 
 而且，由於正常的神經系統也會被阻塞了，那些服藥的病人通常是會較不服藥早死的。 例如他們會手震得很厲害，像心臟衰竭的老人。 而且吃了藥之後會坐立不安，是因為身體對這些「毒素」自然的抗拒反應； 很多病人會不斷喝茶，以沖淡藥的作用。 醫生有時會把藥打在病人臂部，那就不能不吃藥。 這樣的折磨本身就已經會令病人精神崩潰。
+
+\section{医生和药厂为了私利滥用权力}
 
 腦即思想和意識； 能夠控制別人的意識，那是神一般的能力。 有權力就會產生對權力的濫用 (abuse)。
 
@@ -994,6 +1019,8 @@ $$ \mbox{我} : \mbox{堂妹} = \mbox{香港人} : \mbox{我。} $$
 我们俗语常说「你快把我弄疯了」、「爱你爱到发疯」、那正表示某些际遇和感情是会导致精神病的； 但现代精神科 (psychiatry) 把一切解释成「脑内化学的不平衡」，仿佛病人的人生经历是无关的，连常识也违反 —— 这是发什么神经？ 无非是贪钱而已。
 
 在\uline{美国}，精神病药厂每年赚很多亿\uline{美}元，而且他们直接赞助医生们，所以医生开那些药便可以赚多些钱。 药厂也赞助研究，发表对那些药的销售有利的研究结果。 甚至药物管理局 (FDA) 也可以用钱买通； 举例来说，帮小\uline{布殊}总统策划\uline{伊拉克}战事的 Donald Rumsfeld，他从商时曾经为公司帮政府通过以 aspartame 代糖取代 saccharin 代糖，但其实 aspartame 更差，吃多了会头痛\footnote{http://www.rense.com/general33/legal.htm}。 这就是\uline{美国}的资本主义。
+
+\section{参考书目}
 
 最后，解释一下我知識的來源： 我先前研究过如何将人脑的「意識」上载到电脑上 (mind uploading)，所以对神经科学很熟悉。 這是我的一些藏書：
 
