@@ -1,4 +1,5 @@
 % Todo:
+% * Change self-pic
 % * Guns Germs and Steel explain a bit more
 % * Americanism explain a bit more
 % * "It is not humanly bearable" -- Hanasaki
@@ -12,15 +13,18 @@
 	pdfkeywords={biography, mental illness, racism}
 	]{hyperref}
 \usepackage[no-math]{fontspec}
+%\usepackage{CJKutf8}
 \usepackage{xeCJK}
-%\setCJKmainfont{KaiTi}
+%\setCJKmainfont{ukai.ttc}
+%\setCJKmainfont{gkai00mp.ttf}
+%\setCJKmainfont{KaiTiM}
 %\setCJKmainfont{SimSun}
-\setCJKmainfont[BoldFont=KaiTi,ItalicFont=SimHei]{KaiTi}
+%\setCJKmainfont{FangSong}
+\setCJKmainfont[BoldFont=SimHei,ItalicFont=SimSun]{SimHei}
 % \setCJKsansfont{SimHei}
 % \setCJKmonofont{SimKai}
 % \usepackage[default]{droidserif}
 % \usepackage[T1]{fontenc}
-% \setmainfont{Serif}
 \usepackage{gensymb}		% for \degree symbol
 
 \usepackage{cite}
@@ -47,12 +51,17 @@
 \usepackage{setspace}		% reduce line spacing for code
 \usepackage[normalem]{ulem}	 % such that \underline won't overflow
 \usepackage{lastpage}		% get total number of pages
+% \usepackage{movie15}		% for reaction-diffusion movie ("History" chapter)
+% \usepackage[dvipdfmx]{movie15_dvipdfmx}
+\usepackage[dvipdfmx]{movie15}
+% \usepackage{media9}		% Doesn't work for Linux Acrobat Reader
 
 \xeCJKsetup{CJKecglue = {\hskip 0.1em plus 0.02em minus 0.01em},
   xCJKecglue = {\hskip 0.1em plus 0.02em minus 0.01em}}
 
 % Omit chapter number in equation numbering
 \renewcommand{\theequation}{\arabic{equation}}
+\renewcommand{\familydefault}{\sfdefault}	% use san-serif font
 
 \titleformat{\chapter}
 {\color{blue}\normalfont\huge}
@@ -111,10 +120,10 @@
 
 \begin{document}
 
-\includepdf{cover1}
+\includepdf[fitpaper=true]{cover1-mong}
 \cleardoublepage
-\title{\Huge{臆想症}}
-\author{YKY (\textit{甄景贤})}
+\title{\Huge{妄想症}}
+\author{YKY (甄景贤)}
 % \date{27 May 2015}
 % \institute{}
 
@@ -187,11 +196,11 @@ a tender look which becomes a habit}}
 % \dominitoc
 \tableofcontents
 
-\chapter{臆想症}
+\chapter{妄想症}
 
-我有 persecution paranoia (逼害臆想)，特别地叫 Truman Show syndrome。 在《Truman Show》这部 1998 年的电影里，主角活在一齣真人表演里，他身边的人都是演员，但从小欺骗着他，最后他走出了这个骗局。 在外国有很多人有这种臆想，多到形成了症候群的名字。
+我有 persecution paranoia (逼害妄想)，特别地叫 Truman Show syndrome。 在《Truman Show》这部 1998 年的电影里，主角活在一齣真人表演里，他身边的人都是演员，但从小欺骗着他，最后他走出了这个骗局。 在外国有很多人有这种妄想，多到形成了症候群的名字。
 
-我 25 岁时 (1996 年) 初到\uline{美国}，那时迷恋我的\uline{美国}堂妹但遭拒绝。 再加上在外国生活和很少朋友， 而且我从小便对白人的种族歧视很有反感，所以觉得自己活在充满敌意的环境里。 这些因素，令我到了\uline{美国}不够一年便产生了 Truman Show 臆想。 (起初是怀疑有人偷看我的电邮开始....)
+我 25 岁时 (1996 年) 初到\uline{美国}，那时迷恋我的\uline{美国}堂妹但遭拒绝。 再加上在外国生活和很少朋友， 而且我从小便对白人的种族歧视很有反感，所以觉得自己活在充满敌意的环境里。 这些因素，令我到了\uline{美国}不够一年便产生了 Truman Show 妄想。 (起初是怀疑有人偷看我的电邮开始....)
 
 \resultb 年后的今天，我其实仍然未「康复」。 我现在打这篇文章，我的脑子一半觉得自己独自在房间里打字，一半觉得是在全世界 Truman Show 的众目睽睽下打字。
 
@@ -237,7 +246,7 @@ a tender look which becomes a habit}}
 
 相识还不够一天，堂妹说：「堂兄妹也可以结婚，如果不生孩子的话。」 我故意面色很凝重地点头。
 
-5 年后，痴情的我到纽约找她，她说她已有男友，她要结婚生孩子，我们不可能。 我和她纠缠，我说她不给我合理解释； 她说我像个 psychopath (神经病人) 很可怖。 而我当时的确开始了被人监视的臆想 (她不知道)； 我很想和她谈的原因之一就是想她帮我弄清有没有被监视的问题 \dashh 甚至她也可能是观众之一？
+5 年后，痴情的我到纽约找她，她说她已有男友，她要结婚生孩子，我们不可能。 我和她纠缠，我说她不给我合理解释； 她说我像个 psychopath (神经病人) 很可怖。 而我当时的确开始了被人监视的妄想 (她不知道)； 我很想和她谈的原因之一就是想她帮我弄清有没有被监视的问题 \dashh 甚至她也可能是观众之一？
 
 其实 1991 年那暑假，初相识的几天之后，她已经换了态度，说：「我只想要个哥哥，把欺负我的人揍一顿。」 我当时的反应是：「Huh？ 揍谁？」
 
@@ -395,7 +404,7 @@ a tender look which becomes a habit}}
 
 有个\uline{香港}的大学女生，只在电话上谈了一会色情，便在当晚来我家过夜。 她见到我后有些挑剔，似乎不满意我的外表或年龄，我心里开始有些不快，又想起较早前在网上看到的AV片，那AV女孩在片中做爱做得很开心，而我觉得这些AV女优都知道我是谁，她们有时间开心地做爱，也不告诉我一声我被人偷看，让我这样被钉在十字架上很多年.... 越想越想.... 我和那女生躺在床上聊天，她问我喜不喜欢她，我就晦气地说「普通吧！」 然后第二天早上她说她要走了，我没有挽留。
 
-她走后，我发觉自己很喜欢她，哭得很悲恸，我搞不清为什么她要走，也搞不清是不是因为这臆想病令我说了不该说的话。 几天后我到她读的大学图书馆还书，看见路上的女生有她的影子，路上行人的眼睛红了好像想哭，好像举世都为我而哭了。
+她走后，我发觉自己很喜欢她，哭得很悲恸，我搞不清为什么她要走，也搞不清是不是因为这妄想病令我说了不该说的话。 几天后我到她读的大学图书馆还书，看见路上的女生有她的影子，路上行人的眼睛红了好像想哭，好像举世都为我而哭了。
 
 临别前她说： 我也希望你快乐。
 
@@ -522,7 +531,7 @@ a tender look which becomes a habit}}
 
 在正式关进精神病院的时候，有男护士要我签字同意治疗，我问他说如果不同意会怎样？ 他说就算不同意也会强迫入院，所以没有分别。 后来我出院后到精神病人福利团体那里了解，其实我是有权不接受治疗的。 那些精神科医生很想关病人入院，因为不这样的话他们没有生意，他们收入的来源其中一部分可能是由\uline{美国}的药厂赞助的。 精神科药物为\uline{美国}经济带来每年很多亿元的收入。 他们找个低级的护士迫我签字，那样便毋须负责任。
 
-医院里光怪陆离，像动物园，如果不是没有自由，那会是个很有趣的地方。 有个来自\uline{大陆}的年青人，他说「我妈不知给我喝了些什么汤，喝后会使周围的人知道我在想什么。」 我说话开导了他一下，但那时我也自身难保。 其实他的病和我的病一样，但我受过科学的教育，不会迷信，我的病以不违反科学的形式呈现出来。 他整天听家人给他的收音机，学\uline{广东}话。 那令我想起，\uline{香港}人普遍歧视\uline{大陆}人，就像\uline{美国}很多人歧视我们华人一样。 我和他都感受到周围的人的敌意，产生了逼害臆想。
+医院里光怪陆离，像动物园，如果不是没有自由，那会是个很有趣的地方。 有个来自\uline{大陆}的年青人，他说「我妈不知给我喝了些什么汤，喝后会使周围的人知道我在想什么。」 我说话开导了他一下，但那时我也自身难保。 其实他的病和我的病一样，但我受过科学的教育，不会迷信，我的病以不违反科学的形式呈现出来。 他整天听家人给他的收音机，学\uline{广东}话。 那令我想起，\uline{香港}人普遍歧视\uline{大陆}人，就像\uline{美国}很多人歧视我们华人一样。 我和他都感受到周围的人的敌意，产生了逼害妄想。
 
 病友中还包括：
 \begin{itemize}
@@ -561,7 +570,7 @@ a tender look which becomes a habit}}
 
 这个计划似乎很完美，可惜有个漏洞： 就是我自己也无法肯定究竟有没有人在偷窥我。 当我开始想验证的时候，我发觉这件事简直不可思议地\ds{无法验证}。  所有巧合的事，都可以解释成真人秀的存在，也可以解释成巧合。
 
-有些逼害臆想症的男人老是怀疑自己的妻子红杏出墙，即使妻子很忠贞也是如此。 但这究竟算不算是一种病？ 当然，如果妳就是妻子，妳当然知道自己有没有和别人睡，但妳又怎能假设正在外面上班的丈夫知道妳私下做什么？  如果他不知道，他就有怀疑的理由，这不是很科学的态度吗？  而且这世上的确有很多红杏出墙的妻子，我在网上也和她们玩。
+有些逼害妄想症的男人老是怀疑自己的妻子红杏出墙，即使妻子很忠贞也是如此。 但这究竟算不算是一种病？ 当然，如果妳就是妻子，妳当然知道自己有没有和别人睡，但妳又怎能假设正在外面上班的丈夫知道妳私下做什么？  如果他不知道，他就有怀疑的理由，这不是很科学的态度吗？  而且这世上的确有很多红杏出墙的妻子，我在网上也和她们玩。
 
 \begin{comment}
 我和初恋女友常常因为我的怀疑和猜忌闹得很不快，但我一厢情愿地信我堂妹爱我，其实她早已不喜欢我，我白白等了她很多年，觉得这种专一的游戏很幼稚，浪费时间在互相猜忌。
@@ -868,6 +877,46 @@ $$ \mbox{我} : \mbox{堂妹} = \mbox{香港人} : \mbox{我。} $$
 我已说过，堂妹并没有对我做过大逆不道的事；她完全可以拒绝我的。 而我那时的伤痛，可能不是因为她，而是香港和\uline{美国}文化之间存在的不平等的差异 (differential)。 我们不过是漂浮在文明传播的波动方程 (wave equation of the dynamics of civilizations) 中的一些点。 旧的帝国被新的帝国取代，在不公平的表面下有着绝对的公平。
 
 关於历史的进化过程，我很推荐 Jared Diamond 的书《Guns, germs and steel\footnote{(1997)}》。  他在\uline{新畿内亚}做考古研究时，认识了当地一个酋长。  他们土著的文化当然比西方落后很多； 那酋长问他： 为什么你们白人什么都有，而我们土著什么技术都不会，生活那么艰苦？  Jared 觉得很感动，写了这本书。  其主旨是： 有色人种的智力其实和白人差不多，因为他们的生活也很艰苦，要解决很多大小问题，绝对不会比\uline{欧洲}的生活容易。  Jared 从\uline{美国}来到\uline{新畿内亚}，差不多是从全球最先进的地方去到最落后的地方； 他这特殊的境遇令他领略到我们可能视而不见的解释： 某些地区的落后，纯粹是因为地方偏远！  正如城市的人比乡下人更世故和狡猾、城市的小孩子也较早熟。  人类文明的发展，起源於某些河的流域，因为河水是耕种的先决条件。 而且，欧亚大陆是最大的板块，在这板块上各个文明的起源互相联络，越变越高级。 正如在孤岛上的进化比在大陆上的进化慢，因为孤岛的物种较少，竞争对手也少。 在大陆进化的物种迁移到孤岛上，往往会造成岛上的物种被淘汰甚至绝种，因为后者的竞争力较弱。 （例如「有袋类」的袋鼠，是被「哺乳类」大规模地淘汰后的「死剩种」。）  \uline{牛顿}是「站在前人的肩上」发明微积分和力学，但一个土著不会坐在石头上，就突然悟出万有引力定律。 所以科学和技术的发展，也是建立在文化「网络」的基础之上。 \uline{中国}的落后，就是因为她比较远离\uline{欧亚}大陆的文明（记得「丝绸之路」是很难行的旅程？） 东方人明白到这点，就有可能追上西方的科技。
+
+% \includegraphics[scale=0.25]{BZ-frames0001.png}
+% \includegraphics[scale=0.25]{BZ-frames0002.png}
+\includegraphics[scale=0.25]{BZ-frames0003.png}
+\includegraphics[scale=0.25]{BZ-frames0004.png}
+\includegraphics[scale=0.25]{BZ-frames0005.png}
+\includegraphics[scale=0.25]{BZ-frames0006.png}
+\includegraphics[scale=0.25]{BZ-frames0007.png}
+\includegraphics[scale=0.25]{BZ-frames0008.png}
+\includegraphics[scale=0.25]{BZ-frames0009.png}
+\includegraphics[scale=0.25]{BZ-frames0010.png}
+\includegraphics[scale=0.25]{BZ-frames0011.png}
+\includegraphics[scale=0.25]{BZ-frames0012.png}
+\includegraphics[scale=0.25]{BZ-frames0013.png}
+\includegraphics[scale=0.25]{BZ-frames0014.png}
+\includegraphics[scale=0.25]{BZ-frames0015.png}
+\includegraphics[scale=0.25]{BZ-frames0016.png}
+\includegraphics[scale=0.25]{BZ-frames0017.png}
+\includegraphics[scale=0.25]{BZ-frames0018.png}
+\includegraphics[scale=0.25]{BZ-frames0019.png}
+\includegraphics[scale=0.25]{BZ-frames0020.png}
+\includegraphics[scale=0.25]{BZ-frames0021.png}
+\includegraphics[scale=0.25]{BZ-frames0022.png}
+% \includegraphics[scale=0.25]{BZ-frames0023.png}
+
+\begin{comment}
+% This fails because Linux's latest Acrobat Reader doesn't support SWF
+% But it may work in Windows / Mac
+\includemedia[
+  width=0.4\linewidth,
+  height=0.3\linewidth,
+  activate=pageopen
+]{}{BZ-movie.swf}
+\end{comment}
+
+\begin{figure}[ht]
+\centering
+\includemovie[label=BZ-movie,inline=false,text={\includegraphics[scale=0.25]{BZ-movie-play.png}}]{}{}{BZ-movie.mp4}
+%\caption*{BZ-reaction \movieref[pause]{BZ-movie}{Run}}
+\end{figure}
 
 想说的大概就那么多，其馀都是细节而已。
 
