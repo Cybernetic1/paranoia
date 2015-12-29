@@ -1,5 +1,6 @@
 % Todo:
 % * Mom -- 黑箱作业?
+% * simplify Mama's chapter
 % * Americanism explain a bit more
 % * Change self-pic?
 
@@ -936,7 +937,7 @@ $$ \frac{\mbox{我}}{\mbox{堂妹}} = \frac{\mbox{香港人}}{\mbox{我}} \mbox{
 
 我也说过，堂妹不喜欢我是她的自由，她完全有权拒绝我。 但我想起她说话前后矛盾，她说自己爱国但也可能同时在出卖\uline{中国}，我已经不再对她倾慕和迷恋。 而我那时的伤痛，可能不是因为她，而是因为\uline{香港}和\uline{美国}文化之间存在不平等的差异 (differential)。 我们不过是漂浮在文明传播的\em{反应-扩散方程} (reaction-diffusion of civilizations) 里面的一些点。 旧的帝国被新的帝国取代，在不公平的表面下有着公平。
 
-在化学实验里可以观察这些「扩散-反应」系统，例如著名的 Belousov-Zhabotinsky 反应，它们有时会表现出波动的图案，这我觉得与历史的演化很相似：
+在化学实验里可以观察这些「反应-扩散」系统，例如著名的 Belousov-Zhabotinsky 反应，它们有时会表现出波动的图案，这我觉得与历史的演化很相似：
 \begin{comment}
 % This fails because Linux's latest Acrobat Reader doesn't support SWF
 % But it may work in Windows / Mac
@@ -991,9 +992,9 @@ $$ \frac{\partial \vec{x}}{\partial t} = \mbox{扩散系数} \cdot \nabla^2 \vec
 
 还有，我所讲的「世界 A 和世界 B」，其实差不多是同一个世界，亦即你和我活在其中的世界。 疯人院外面和里面的人没有分别。 我们每天都活在种族歧视之中、每天都互相出卖。 假设我在被人监视下仍懵然不知，也不会有人道破这谎言。 他们只会对白人低着头「饶命啊大人」那个样子。 \ds{你们}就是那些演员。
 
-《圣经》里，\uline{摩西}想带\uline{以色列}人走出\uline{埃及}，但初时人们反对他，说什么「我们现在做奴隶做得好好的，为什么要走？」 在《Waiting for Godot》\footnote{等待果陀 (1953)}剧里有个人像只狗那样被人用绳索拖着四脚走动，主角想解开他反被他咬。 据说 Che Guevara\footnote{(1928-1967)}帮助非洲人打游击战，被当地士兵的散漫态度弄到心力交瘁； Byron\footnote{(1788-1824)}也试图帮助希腊独立战争，因军队的士气低落而过劳致死。 那个叫「\uline{耶稣}」的人，也是在类似的情况下被人出卖而死的。 还有太多这样的例子.... % ( ? )
+《圣经》里，\uline{摩西}想带\uline{以色列}人走出\uline{埃及}，但初时人们反对他，说什么 \speechCn{我们现在做奴隶做得好好的，为什么要走？} 在《Waiting for Godot》\footnote{《等待果陀》 (1953)}剧里有个人像只狗那样被人用绳索拖着四脚走动，主角想解开他\em{反被他咬}。 据说 Che Guevara\footnote{(1928-1967)}帮助非洲人打游击战，被当地士兵的散漫态度弄到心力交瘁； Byron\footnote{(1788-1824)}也试图帮助希腊独立战争，因军队的士气低落而过劳致死。 那个叫「\uline{耶稣}」的人，也是在类似的情况下被人出卖而死的。 还有太多这样的例子.... % ( ? )
 
-我常想起\uline{耶稣}钉十字架时身旁的两个小偷，他们说『你既然是神的儿子，为什么落得和我们一样下场？』 我的目的就是要不死。
+我常想起\uline{耶稣}钉十字架时身旁的两个小偷，他们说 \speechCn{你既然是神的儿子，为什么落得和我们一样下场？}  而我的目的就是要不死....
 
 \begin{center}
 \dashh 完 \dashh \par
@@ -1069,7 +1070,7 @@ $$ \frac{\partial \vec{x}}{\partial t} = \mbox{扩散系数} \cdot \nabla^2 \vec
 
 有些人遭遇很多不幸： 或者容貌特醜、被人欺壓、欺騙、歧視、被愛人拋棄、或各式各樣的不公平。 他們已經是受害者，還要被加害。
 
-我们俗语常说「你快把我弄疯了」、「爱你爱到发疯」、那正表示某些际遇和感情是会导致精神病的； 但现代精神科 (psychiatry) 把一切解释成「脑内化学的不平衡」，仿佛病人的人生经历是无关的，连常识也违反 —— 这是发什么神经？ 无非是贪钱而已。
+我们俗语常说「你快把我弄疯了」、「爱你爱到发疯」、那正表示某些际遇和感情是会导致精神病的； 但现代精神科 (psychiatry) 把一切解释成「脑内化学的不平衡」，仿佛病人的人生经历是无关的，连常识也违反 \dashh 这是发什么神经？ 无非是贪钱而已。
 
 在\uline{美国}，精神病药厂每年赚很多亿\uline{美}元，而且他们直接赞助医生们，所以医生开那些药便可以赚多些钱。 药厂也赞助研究，发表对那些药的销售有利的研究结果。 甚至药物管理局 (FDA) 也可以用钱买通； 举例来说，帮小\uline{布殊}总统策划\uline{伊拉克}战事的 Donald Rumsfeld，他从商时曾经为公司帮政府通过以 aspartame 代糖取代 saccharin 代糖，但其实 aspartame 更差，吃多了会头痛\footnote{http://www.rense.com/general33/legal.htm}。 这就是\uline{美国}的资本主义。
 
@@ -1091,7 +1092,7 @@ $$ \frac{\partial \vec{x}}{\partial t} = \mbox{扩散系数} \cdot \nabla^2 \vec
 \centering
 \includegraphics[scale=0.5]{neuro-books3.jpg}
 \end{figure}
-% 还有几箱影印的文件。
+% 还有几箱影印的文献。
 
 但自 2004 年我開始轉而研究人工智能，因為那技術的影響將會更厲害，大腦之謎也會間接地迎刃而解。
 
