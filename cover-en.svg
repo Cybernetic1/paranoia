@@ -186,8 +186,8 @@
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1050"
-     inkscape:window-height="1652"
+     inkscape:window-width="1080"
+     inkscape:window-height="1892"
      inkscape:window-x="0"
      inkscape:window-y="2"
      inkscape:window-maximized="1"
@@ -201,7 +201,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -265,5 +265,5 @@
            y="32.362183"
            style="fill:#b3b3b3" /></flowRegion><flowPara
          id="flowPara3072-6"
-         style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#b3b3b3;font-family:AR PL UKai HK;-inkscape-font-specification:AR PL UKai HK">Yan King Yin</flowPara></flowRoot>  </g>
+         style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#b3b3b3;font-family:AR PL UKai HK;-inkscape-font-specification:AR PL UKai HK">John Yan</flowPara></flowRoot>  </g>
 </svg>

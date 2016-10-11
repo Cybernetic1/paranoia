@@ -33,7 +33,7 @@
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{amsfonts}
-% \usepackage{amsmath}	% for \tag
+\usepackage{amsmath}	% for \boxed, [also for \tag but not used anymore]
 \usepackage{amssymb}	% for \multimap
 % \usepackage{stmaryrd}
 %\usepackage[square,numbers]{natbib}
@@ -85,11 +85,19 @@
 \newcommand{\speechCn}[1]{\textrm{\textit{\textcolor{Speech}{#1}}}}
 \renewcommand{\em}[1]{\textbf{\textcolor{DarkRed}{#1}}}
 
-% Make dots under Chinese characters for emphasis
+% ***** Make dots under Chinese characters for emphasis
 \renewcommand{\d}[1]{$\underaccent{\scalebox{0.5}{\textbullet}}{\textrm{#1}}$}
 \makeatletter
 \newcommand{\ds}[1]{%
   \@tfor\next:=#1\do{\d{\next}}}
+\makeatother
+
+% ***** Boxed variables inside math equations
+% \newcommand*{\boxedcolor}{black}
+\makeatletter
+% \renewcommand{\boxed}[1]{\textcolor{\boxedcolor}{%
+%  \fbox{\normalcolor\m@th$\displaystyle#1$}}}
+\renewcommand{\boxed}[1]{\fbox{\m@th$\displaystyle\scalebox{0.75}{#1}$}}
 \makeatother
 
 \newcommand*\sadface{\includegraphics[scale=0.25]{face-sad.png}}
@@ -981,7 +989,7 @@ $$ \frac{\mbox{我}}{\mbox{堂妹}} = \frac{\mbox{香港人}}{\mbox{我}} \mbox{
 % \includegraphics[scale=0.25]{BZ-frames0023.png}
 
 设 $\vec{x}$ 是几个化学成分的浓度，系统的动态可以用这种方程描述：
-$$ \frac{\partial \vec{x}}{\partial t} = \mbox{扩散系数} \cdot \nabla^2 \vec{x} + \mbox{化学反应}(\vec{x})$$
+$$ \frac{\partial \vec{x}}{\partial t} = \boxed{\mbox{扩散系数}} \cdot \nabla^2 \vec{x} + \boxed{\mbox{化学反应}}(\vec{x})$$
 世界强权的兴衰似乎也像化学反应，而且是不可逆过程： 例如\uline{拿破仑}企图复兴\uline{法兰克}帝国，\uline{希特拉}企图复兴\uline{德意志}帝国，但他们都失败了。 强权的崛起似乎只能够在「处女地」发生，\em{就像我们不能用燃烧过的灰烬再生火}。
 
 关於历史的进化过程，我很推荐 Jared Diamond 的书《Guns, germs and steel》\footnote{(1997)}。  他在\uline{新畿内亚}做考古研究时，认识了当地一个酋长。  他们土著的文化当然比西方落后很多； 那酋长问他： 为什么你们白人什么都有，而我们土著什么技术都不会，生活那么艰苦？  Jared 觉得很感动，写了这本书。  其主旨是： 有色人种的智力其实和白人差不多，因为他们的生活也很艰苦，要解决很多大小问题，包括各部落之间的战乱，绝对不会比\uline{欧洲}的生活容易。  Jared 从\uline{美国}来到\uline{新畿内亚}，差不多是从全球最先进的地方去到最落后的地方； 他这特殊的境遇令他领略到我们可能视而不见的解释： 某些地区的落后，纯粹是因为地方偏远！  正如城市的人比乡下人更世故和狡猾、城市的小孩子也较早熟。  人类文明的发展，起源於某些河的流域，因为河水是耕种的先决条件。 而且，欧亚大陆是最大的板块，在这板块上各个文明的起源互相联络，越变越高级。 正如在孤岛上的进化比在大陆上的进化慢，因为孤岛的物种较少，竞争对手也少。 在大陆进化的物种迁移到孤岛上，往往会造成岛上的物种被淘汰甚至绝种，因为后者的竞争力较弱。 （例如「有袋类」的袋鼠，是被「哺乳类」大规模地淘汰后的「死剩种」。）  \uline{牛顿}是「站在前人的肩上」发明微积分和力学，但一个土著不会坐在石头上，就忽然悟出万有引力定律。 所以科学和技术的发展，也是建立在文化「网络」的基础之上。 \uline{中国}的落后，就是因为她比较远离\uline{欧亚}大陆的文明（记得「丝绸之路」是很难行的旅程？） 东方人明白到这点，就有可能追上西方的科技。
