@@ -1,5 +1,7 @@
 #!/bin/bash
-detexed=$(detex /home/yky/latex/paranoia/paranoia.tex)
+#detexed=$(detex /home/yky/latex/paranoia/paranoia.tex)
+pdftotext /home/yky/latex/paranoia/paranoia-cn.pdf
+detexed=$(<paranoia-cn.txt)
 
 # Remove all that is not English alphabet;  result = all English words
 ewords=$(perl -CIOED -p -e 's/[^a-zA-Z0-9\s]/ /g' <<< $detexed)

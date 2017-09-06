@@ -1,0 +1,1193 @@
+Paranoia
+John Yan (
+
+)
+
+September 6, 2017
+
+author e-mail: general.intelligence@gmail.com
+word count:
+
+Chinese: 14736
+
+English: 5840
+
+total: 20576
+
+cover art: “Paranoia or something”
+Nami-Tsuki @ DeviantArt.com (Jessica Allen)
+
+85 pages
+
+Love is an act of endless forgiveness,
+a tender look which becomes a habit
+
+—— Peter Ustinov
+
+Contents
+
+1
+
+1
+
+2
+
+4
+
+3
+
+A B
+
+4 American cousin
+
+6
+
+9
+
+5
+
+20
+
+6
+
+23
+
+7
+
+27
+
+8
+
+31
+
+9
+
+33
+
+10
+
+35
+
+11
+
+41
+
+12
+
+43
+
+13
+
+46
+
+14
+
+50
+
+15
+
+61
+
+16
+
+67
+
+17
+
+71
+
+A
+
+76
+A.1
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 76
+
+A.2
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 79
+
+A.3
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 80
+
+A.4
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 81
+
+A.5
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 82
+
+Acknowledgements
+
+85
+
+universality
+throw away with great force
+
+1
+Paranoia
+
+I have persecution paranoia, or more specifically “Truman Show syndrome”.
+In that 1998 movie of the same title, a guy lives in a reality show, surrounded by
+actors who deceived him since childhood, but he escaped from the show finally.
+In the US this syndrome has spread like an epidemic after the movie’s release.
+I first visited America when I was 25 (in 1996), at the time I was infatuated with
+my American cousin but rejected by her. Adding to that I had very few friends
+in the foreign country, and I have a long-time aversion to white people and their
+racism, I felt I was living in a hostile environment. These factors made me grew
+paranoid within a year of arriving in the US. (At first it began with some suspicion
+of people peeping into my e-mails....)
+Today, 26 years later, I have still not “recovered”. Now that I am typing this
+1
+
+manuscript, half of my brain thinks I am typing alone in my room, another half
+thinks I am typing in a Truman Show with the whole world watching.
+You probably think I’m crazy. How could I believe something so absurd as The
+Truman Show ?
+I am a researcher in AI (artificial intelligence), a disruptive technology that may
+some day in the near future turn the world order upside-down. For example,
+the main difference between white people and colored people is probably just
+the superficial looks, but looks are genetically inherited by DNA, and we Chinese
+people cannot have those genes unless we kidnap their women for breeding. With
+the advent of AI, technological progress can enable people to live forever, humans
+would be freed from the dictates of genetics, and we could morph into whatever
+looks we want. White supremacy would also vanish.
+So, white people may not want Asians to have this technology. And indeed I
+have actually experienced some hostility from American AI researchers: they’re
+called OpenCog, the founder is Ben Goertzel. He is now quite famous, you can
+look him up. I have tried to join them several times, but their attitude is rather
+unfriendly and unwelcoming.
+So, if I feel that someone from the US or the West are plotting against me, that
+probability really may not be zero. Have you not heard of many anti-US political
+figures killed by the US? And my political stance is strongly anti-racist, which
+
+2
+
+logically would entail anti-Americanism.
+I’d wanted to find a ghost writer to write this book, but slowly I finished writing
+pretty much all I want to say.
+I was locked up in a mental hospital for 3 weeks, got to know the patients and
+saw a lot of happenings, that made me sympathize with them. I was scared
+shitless, pretended that I was normal so they would release me, which they did
+eventually, on Christmas day. That made me think of the 1974 movie One Flew
+Over the Cuckoo’s Nest, in which the good guy was electrocuted into an idiot,
+but the insane guy who thought he is Jesus succeeded to escape. In that movie
+they also taught how to hide drug pills under the tongue; little did I know that
+the trick could be so useful later.
+As to psychiatric drugs, they are pretty useless, acting only to block the signals
+that neurons communicate; They cause patients to be sleepy, tired, lacking motivation and sex drive, ...etc. Some boys may become feminine / grow breasts. To
+put it simply, the drugs perform chemical lobotomy on your brain (even though it
+may not be permanent). I know this because I have researched on how to upload
+the brain’s consciousness to the computer (“mind uploading”), so I studied a
+lot of neuroscience. Trust me!
+John Yan is my real name — why didn’t I use a nickname? That is because I
+halfly believe that you all know this already
+
+3
+
+2
+Colonialism
+
+My daddy used to be a Hong Kong Royal Police. After the British handover of
+Hong Kong to China, he continued for a few years before retiring. When I was
+young I never thought much about my daddy’s job, but I started to feel strongly
+once I visited America. After all, serving under colonialism is sort of traitorous.
+What is strange is that in Hong Kong many people utterly don’t feel any shame
+about colonialism. Some of us even think the British government is a “stepmother”, even dearer than the birth mother. Why so? Though it is often said
+that colonial Hong Kong was a place where “East meets West”, the reality is that
+Westerners were still pretty segregated and unapproachable from the locals (this
+situation may be changing now). Many Hong Kongers felt their legs shake when
+they needed to speak English. Living under such fears, they could not recognize
+the true face of colonialism.
+
+4
+
+When I first experienced America, I was very much in awe of their advanced
+culture, just like George Bush Jr said “shock and awe”. For a while I even
+stopped eating Chinese food, I wanted to eat wholly Western-style. When I
+returned to Hong Kong, I saw on the newspaper a curious phrase: “western
+hyprocrisy”, and that got me suddenly to start to understand the workings of
+the world globally.
+When I was a kid, I had a young aunt who went to England to study English
+literature. I didn’t see her a lot, but I remember clearly she once told us about
+her experiences when studying abroad. She said, one time when she was dining
+with other students, she reached out her hand to grab a piece of bread, and a
+British student said to her “Don’t touch that bread!” or something like that
+(I forgot the exact words, but he wasn’t telling her to eat wholegrain bread, I
+guess?) Later on she came back to Hong Kong and taught in a local Islam
+school, and got leukemia and died very young. In my mind, she was a very proud
+person (among the daughters of my grandma, she was probably the prettiest,
+and also the highest educated), I imagined that she died in bitterness because of
+the insult.
+
+5
+
+3
+World A and world B
+
+Ever since I got this mental illness, I cannot distinguish between World A (the
+reality) or World B (the Truman Show). In the subway, when I see people gossiping, I wonder if they were talking about me. I always feel that TV shows in
+Hong Kong and in the US were poking fun at me obliquely, cursing me to die
+and such, and all these annoyed me greatly. But I couldn’t tell World A from
+World B. In other words, I have become like a blind person, just like the story
+of Samson and Delilah in the Bible 1 : After Samson was betrayed by Delilah,
+they cut his hair and blinded him, and made him work futilely; He became the
+laughingstock of his enemies. I often felt, this messy affair between me and my
+cousin, must be the key to disentangle the whole mess, and so I keep analyzing
+it endlessly. At that time my thoughts were very chaotic, it was the beginning of
+the road to madness.
+1
+
+I am atheist, but I think some biblical stories are quite meaningful and can be learned from.
+
+6
+
+First thing I need to clarify is: even though I was infatuated with her, I also
+despised her somewhat, and I also fancied other girls. I was just like a man
+drowning in a shipwreck in the Pacific Ocean, grabbing onto her like a lifesaver.
+Because she is ABC (American born Chinese), she is like a ticket for me to enter
+white society. It’d be so nice if I could marry her, or I’d be floating in the ocean,
+struggling to get “on shore”.
+Finally I got to see her in New York, but she clearly disliked me by then. At that
+time I brought a book with me, an autobiography of a run-away Asian-Canadian
+girl, about her prostitute street life. I knew that all girls love that kind of book,
+so I left it in my aunt (cousin’s mother)’s house, and my cousin and her sister
+both read it as expected. When the book came back, I was surprised to discover
+a tiny piece of paper, on it was written just the words:
+no escape except through death
+At the time I thought it meant she wanted me to murder a high-school classmate
+of mine. (Way back, my aunt brought my cousins to Hong Kong for a summer
+vacation, and that was when I first started to like her. I introduced my highschool classmate to them, thinking we could have a fun time together, but my
+cousin exchanged flirts with him and treated me like a fool.) The more I thought
+about it, the more I felt this was an unforgivable insult, and that I must kill him
+to avenge it — like a sword wedged between me and my cousin, and I had to pull
+it out. But I was also in a Truman Show, how could I plot to murder someone?
+7
+
+And moreover, if my cousin really loved me, why would she require me to kill
+someone as a condition? Wasn’t it because of her flirting with that guy, that
+created this insult in the first place? Every time I thought of this my body shook
+with anger.
+More than a decade later, now I seem to understand that sentence she wrote. In
+American culture, the highest-status people are blonde with blue eyes; red hair is
+unlucky; and if someone has black hair, everything she touches turns into tragedy.
+As for Jews, they should just straighten up their frizzy hair first. And yellow people
+are still lower than Jews. I was jealous of my cousin getting “onshore” earlier
+than me, as if she turned into a white person before I could. I was so jealous
+I wanted to kill her, and I had never felt such a great hatred towards anyone.
+Though frankly, what does this “onshore” even mean? All Chinese immigrants in
+America live a second-rate, shadow-like existence without dignity. Even Whitney
+Houston2 was just a shadow. Barack Obama simply chopped off his black half,
+and he was so cool he even smiled at it. Note: Steve Jobs3 is exactly the kind of
+person who thinks the step-mother dearer than birth-mother. In America, colored
+people are getting so desperate, that even if they prostitute themselves cheaply,
+white boys may not bat an eye towards them. No one could get on shore, but we
+are trampling over each other to get ahead, displaying all sorts of ugliness. “No
+escape except through death” may mean this.
+
+2
+
+(1963-2012) American black singer whose song our high-school English teacher played to us.
+(1955-2011) American entrepreneur, founder of Apple Inc, born to a Muslim father and a white American
+mother. Their marriage was opposed by the mother’s father, so she give up the baby for adoption.
+3
+
+8
+
+4
+American cousin
+
+1991 (26 years ago), my aunt and 2 cousins came from America to visit Hong
+Kong. I was 20, just entered university year 2. She was 14.
+That summer our house had a lively crowd of guests. Another (boy) cousin from
+England and his British friend also came to Hong Kong for vacation, and they
+all stayed at our place. The night my girl cousins arrived, I just came back from
+university campus, they have gone to the bedroom. My mother came out to
+the living room to describe to me these strange visitors. She spoke with a very
+worried look on her face, “Oh dear... your cousins look so frightening... the older
+one is so fat she looks like a mountain... and the little one, she’s so young and
+already putting on lipsticks, makeup and perfume like an old lady !” So I instantly
+took a liking to her; These stories always begin like that.
+
+9
+
+We have barely known each other for one day, and she said to me, “Even cousins
+can get married, if they don’t have kids.” I nodded my head deliberately and
+seriously.
+5 years later, the lovesick me went to New York looking for her; She said she had
+a boy friend already, she had to get married and have kids; We are impossible. I
+wouldn’t let go of her; I said she didn’t give me a reasonable explanation. She
+said I sounded like a psychopath and scared her. Indeed, I had actually started
+having paranoid thoughts (she didn’t know that); Part of the reason I wanted to
+talk to her is to help me clarify whether I’m under surveillance or not, or could
+she also be one among the watchers?
+Actually in the summer of 1991, just days after knowing each other, she had
+changed her mind, saying, “I just want an elder brother, to beat up the people
+who bully me”. I remember my first response was “Huh? Beat up who?”
+For 26 years I kept thinking why she rejected me.
+At 14 years’ age she said: “George Bush (Senior) is fighting a war in Iraq, but he
+still goes to play golf!” I said: we Hong Kong people don’t care about politics,
+we don’t know what is war — and stupid things like that. Now I realize, that
+what she said was very right, she was so young but she understood a lot. And
+now I know the correct response should be that we should knock down American
+imperialism and racism.
+
+10
+
+At the student hostel in New York, there was a big tree outside my window. In
+the spring, a pair of squirrels (? I’m not even sure what animals they are) chased
+each other all day long. Maybe it was their mating season, the male squirrel kept
+following the tail of the female, but he always just got close to the tail, without
+ever catching her, and it looked as though he’s just doing that to smell her odor;
+That sight irritated me so much. I came to New York all by myself, but my cousin
+didn’t want to see me, so our situation is just like that squirrel chasing the other.
+This is so unbearable to watch, as disgusting as the physiological acts of shitting
+and farting. I remember the title of a novel: The Heart is a Lonely Hunter. I
+thought of those ideal lovers in the movies, The Blue Lagoon or whatever, lovers
+playing amidst a bed of flowers, the girl looks at the boy with longing eyes, that
+image is so different from my reality. I am the chaser, she is chased, whereas in
+The Blue Lagoon they mutually love each other. Something must be wrong, but
+I couldn’t figure it out. I felt that everything is against me. Shakespeare said the
+world is just a stage and we are the actors in it, but I found that my role as the
+“chaser” is impossible to play successfully. I should not chase even for one step;
+Just one step is wrong, but I was already chasing.
+I remember another old movie: Young man got into gambling rivalry with a fat
+guy, losing all his money and even his beautiful wife to the fat guy. Of course,
+he won her back at the end. In the last scene, as the wife leaves him, the fat
+11
+
+guy started to cry fitfully, and she patted his back to comfort him.... Why has
+this role fallen on me?
+I remember another time in the subway, a mother scolded her child in front of
+other passengers, and the little girl was covering her ears tight, ashamed that her
+mum disclosed her bad deeds to strangers. I was like that girl, unwilling to hear
+the truth.
+I had an image in my mind: I was not wearing clothes, my yellow-skinned body
+looked like a low animal, and I was toiling clumsily and primitively, using my
+bare hands to pick up mud, to build a tiny wall trying to encircle my cousin into
+my world, and that mud tower is pathetically small, it could barely circle myself,
+and the inside is filthy and smelly, and my cousin was watching me from high
+above and I didn’t know it. More and more I felt that this mud tower cannot
+be sustained any longer, the truth is coming at me from all directions. Finally
+I raised my head and saw my cousin watching me, I got angry and scolded her:
+“You knew it all along that you wouldn’t love me, why didn’t you tell me earlier?”
+And then suddenly I realize: Wasn’t this what she’s been telling me all the while?
+and I miraculously could not take it in?
+And I thought, everyone in their lives must go through the pain of heartbreaks,
+why am I handling this so badly? Many of my old classmates graduated from
+college, got married, had kids, and we never heard such scandals from them. Why
+is everyone else adjusting so well, maybe my mum forgot to teach me something?
+12
+
+Why isn’t this in the textbooks? There’s this one friend from high school, who
+climbed up his college dorm room to check on his girl friend, and saw her cheating
+with another guy, and he fell from the wall and broke his leg. He’s exactly the
+guy I mentioned before, the one that flirted with my cousin.
+One night in the dorm room, I worked up the courage to call her on the phone,
+but I was afraid. I pickup up the phone and put it down, picked it up and put
+it down.... , finally I called her. She asked, “What do you want to say?” And I
+said, “I... I... I...” and kept stammering the word “I”, literally for 1 or 2 minutes.
+That’s because I had a guilty conscience, I did not truly love her, it’s just that I
+couldn’t have her so I wanted to conquer her. I felt that my love was not real,
+obviously I despised her, but I feared she could see through it. I wouldn’t die
+for her, and I even predicted with certainty, that after I got her I will turn my
+attention to other girls. That was like a battle of true hearts, and I felt guilty,
+and I said at long last, “I.... I.... I.... love you very much.” She seemed very
+offended and slammed down the phone receiver.
+Later, on the internet I discussed this with an American woman, and she is a bit
+arrogant, she said, “Your cousin is smart.... Forget her and move on.” But I
+start to doubt it more and more. Women read a lot of romance novels, but do
+they really know about love more than men do?
+I recall, that she actually seemed to fancy many other boys as well. That summer
+when she was 14, we were chatting randomly and the conversation landed on the
+13
+
+topic of sex. I said to her matter-of-factly, “I like many types of girls, but you,
+you’re a girl and you’d only have sex with the guy you really love.” But she
+said, “no, that’s not true, I sleep with everyone!” Her comeback caught me offbalance, and I was scared by the thought of her having sex with someone else. I
+comforted myself by thinking she must be kidding me....
+When you wait for the bus it won’t come, but when you’re not waiting you see
+many. In New York when I was yearning for my cousin, lots of girls tried to seduce
+me. But I deliberately ignored them, just to show how faithful I am to her. That
+was just my one-sided attempt to make a reason that she must love me. One
+time in a class in university, a girl sitting behind me dropped a pen, and I just
+sat there with my body all tense, not picking up the pen, as I thought she was
+seducing me. I even heard her “what?” uttered from her in surprise, and then
+she picked up her own pen.
+
+In New York, her male friend (not boyfriend) Ralph was acting rough with me,
+warning me not to bother her. I did not fight back, not knowing what exactly
+was going on. When I later complained to my aunt why my cousin would not
+give me an explanation, I hit her once on the arm. Aunt called for help, and I
+was beaten up by the bunch of relatives and friends that arrived. I told them
+that Ralph hit me first, but I wasn’t sure if they’ve heard me or not.
+14
+
+After they beat me, I sat on the lawn outside my host’s home, my arm was
+bleeding (but it was only a slight wound). Aunt was pointing at me and scolding,
+“You call yourself an educated man? What kind of shit did you learn at school!?”
+Later she wrote me a cheque, perhaps as some kind of break-up compensation.
+After this incident I don’t see them much anymore.
+That night, my aunt had come to help me move house, driving a long way to my
+host’s place, but I wasn’t thankful for her and even thought she owed me. That
+time was the lowest point of my life, I was literally inconsolable.
+Aunt had explained some things to me before: “If she really likes you, she wouldn’t
+be acting like this”, “If you think she despised you, you work harder and be better
+than her.” Her words are very true indeed, and I pulled myself together and really
+worked hard afterwards.
+Today, 26years later, when I see Hong Kong people behaving like wusses, I feel an
+urge to punch them in the face, just to teach this society to get its act together.
+But isn’t that like punching the person that was me 26years ago?
+I was jealous of my cousin, because her parents emigrated to America first, they
+learned to be like white people, with their advanced culture and aggressiveness
+and guile, whereas I was just a timid country boy from Hong Kong. I was very
+mad, why was this little girl teaching me a lesson, but I couldn’t think of a single
+reason to criticize her (except for some trivial things).
+
+15
+
+But she has her weak points too, just like any ordinary person. At 14 she said
+some stupid things, so stupid you’d laugh to death. Want to hear? For example,
+she said “I used not to believe in ghosts, but after watching the movie Ghost 1
+I believe them now.” That lead actor Patrick Swayze had since become a real
+ghost.
+She also told me once, as if to give me helpful advice, “Never believe in anybody!”
+Thinking back, it might be this single line of hers, added with the high-school
+friend who betrayed me, that really made me not believe in anyone anymore.
+The complete distrust made me unable to tell if anyone is an actor or not, even
+including her.
+
+When we first met, I often apologized to her over little things, but she said,
+“Don’t say ‘sorry’ all the time, I really hate people who say sorry.” I felt dumb
+and clumsy around her. After she left, I went nuts and never again apologized
+to people no matter what happened. One time at the university in New York,
+I was late for class, I should have said to the professor, “sorry I’m late”, but I
+said instead, “I’m late.” The professor was shocked and responded with a funny
+look on his face, “Mister Yan, you just said you’re late?” I nodded. I was so
+dumb, that was like some kind of “silent” protest I made to my cousin — “see
+1
+
+A 1990 romantic hit movie.
+
+16
+
+what you’ve done to me?” Under the World A interpretation, the professor and
+students would not understand this, they’d be wondering why is this Chinese guy
+not saying “sorry”? And that would probably lead them to think of things like
+racism and imperialism.
+In New York, she scolded me for making my parents pay for the college just so
+I could see her, that is so “selfish”. Later when I grew to hate her I began to
+think, “What’s wrong with me coming to America to study? Does New York
+belong to you?” New York belongs to whom?
+On the bed in the dorm room, I was thinking of her, and the more I thought the
+more I felt that I was cheated by her, but I couldn’t name the reason. Suddenly
+I felt a heaviness on my chest, I pounded my chest with my fist, like a beat on
+the drum, and it was only afterwards that I realized I made such a movement.
+I thought immediately, “God damn, why the fuck did I act like a chimpanzee?”
+That’s such a shame, the audience who were watching my reality show must have
+laughed to tears.
+
+For this matter, my parents flew to New York to help mediate. The 3 of us stayed
+at aunt’s house in the basement, while aunt and the cousins lived upstairs. Once,
+I was talking to my mum, she told me that my cousin showed my love letter to
+her and dad, and complained of how I was harassing her. I told my mum: I
+17
+
+just wanted an explanation from her, just to talk to her (I wanted to know if
+there were people watching me, as I felt at that time that my cousin was the
+only person who could understand me, and I didn’t want to discuss the paranoia
+with my mum, because she is among the people whom I had wanted to “expose”
+(see §13)). “Why wouldn’t she even talk to me....?”
+
+But my mum said, “We
+
+have asked her too, but she just said she doesn’t want to see you.” I said, ‘Why
+wouldn’t she talk even once with me....” and as this sentence had not finished,
+my tears start rolling uncontrollably down my face, I cried like a little boy. It was
+my mum who taught me to act like a macho tough man, she taught me that
+boys don’t cry.
+I cried, I really had not expected she could be so cruel....
+I felt she betrayed me.... she would not unite with me against America.... it’d
+be she uniting with America against me....
+People would forget about the Iraq war.... I would be unable to tell whether
+people are watching me or not.... people would think I’m crazy....
+....
+
+....
+
+After a long time, I slowly recovered, telling myself not to believe in that Delilah
+story in the Bible; I am not finished just because she betrayed me. If a woman
+turned bad just replace her with another. But I have not found a good girl to
+this day.
+
+18
+
+My younger brother also flew from England to New York to visit me, with his
+Japanese school friend. I was still chiding my cousin for “not giving me an
+explanation.” My brother asked me, “First of all, can you even accept the fact
+that she doesn’t like you?” I said, “Of course I can accept that, I just want her
+to give me an explanation.” My brother said, “You’re using your own standards
+to judge others. You think it is right to give explanations for breaking up, but
+some people think it is best not to say anything, you can’t force her to be like
+you.” But I couldn’t listen at that time. My brother said, this trip to America
+had been shadowed by my sad affair, even giving him an unpleasant impression
+of New York.
+I remember asking my mum, “Why didn’t she even say one word with me, don’t
+you think that’s unreasonable?” Mum said, “Some women are just like that, they
+like to torture and irritate men, they even feel pround of doing that!” As I recall
+this, I feel that my mum is just ridiculous: How could you think my cousin is that
+kind of person? Maybe you are just this kind of nasty, despicable woman?
+
+My uncle died early, my cousin lost her father at a tender age, she is one of
+those undisciplined young girls. And being American, she often laughed at our
+backwardness, even my parents were afraid of her sharp words. Whereas I have
+always been disciplined strictly by my parents, that made me admire her so much.
+19
+
+In Hong Kong, I brought her to drink lemonade at a place called American Café,
+but she snarked that it is not a genuine American brand, and I felt losing face. To
+tell the truth, why is eating at a fake American restaurant more shameful than
+eating at MacDonald’s?
+In The Dream of The Red Chamber 2 , (“Precious Jade”) said that men are filthy
+things, but women’s essence is pure. Rumor has it that the story after Chapter 80
+is not written by the original author. So the story of Precious Jade being tricked
+into marrying another woman, and Black Jade dying of a broken heart, may not
+be the author’s original intent. Isn’t the author
+
+famous for the technique of
+
+leading the reader into a trap, only to disillusion him afterwards? And that’s
+why The Dream of Red Chamber is called a “dream”, isn’t it? I like using this
+technique in my own writing as well! However, that plot about Precious Jade
+losing his jade and meeting the True Precious Jade, is such a magical touch, that
+makes me wonder if anyone could be so imaginative to complete the story?
+But there’s no need to dwell on this issue, since that is just a work of fiction,
+and my purpose here is not to write fiction, but to analyse and calculate with
+objectivity. That is why I am critical towards everyone, including myself. We need
+to rely on our own thinking to find answers, instead of believing in old books. It
+is said that Fermat did not know the proof of the famous theorem that bears his
+name, mathematicians generally believe that he was mistaken, and the real proof
+had to wait till the development of 20-century mathematics.
+2
+
+Chinese classic novel written in the 1760’s
+
+20
+
+As Haruki Murakami said, writing is a kind of self-therapy. If I don’t write this
+down I couldn’t even tell who was right or wrong. I was once so mad that I wished
+to kill my cousin, but now I just want to figure out who did wrong exactly. She
+absolutely had the right to reject me, maybe the reasons were too embarassing
+to admit. After all, our DNA were 12.5% identical, maybe she could not bear
+to tell me, “brother, I’m officially dumping you because you look like shit, you
+have no talent, and you’re much older than me” ? Even now I often ignore other
+women whom I think are not pretty enough, or not smart enough.
+My cousin is not really that pretty. Even while in America I have had this
+reckoning: if I could not even get her, there would be no chance for me to
+get those blonde-hair blue-eyed white girls. That made me feel so ashamed,
+I just wanted to have 6 wives like Henry the 8th. Now I have become very
+promiscuous. Who wouldn’t? To have one love only, or so-called monogamy, is
+just young men and women trying to market themselves with a better price, and
+then they would beg with tears saying “Sorry, but that is out of my control.”
+Nevertheless, I would always feel ashamed for thinking she was not as pretty as
+the white girls, remembering her face when she was angry. Now I think that
+Chinese women are very pretty, maybe I am really mentally ill
+
+21
+
+5
+Immortality
+
+There exist clinical records of people who turned temporarily blind after suffering
+traumas. Though I have not reached that stage, I went through 1∼2 years of
+rage after the quarrel with cousin.
+At that time, I was studying literature, and the professor said that young men
+who are inexperienced with women often “put them on a pedestal”, until they
+realize they have been fooled. I thought the professor knew about my affair with
+cousin, and he was trying to enlighten me.
+A
+
+1
+
+It is a truth universally acknowledged, that a single man in possession of a
+good fortune, must be in want of a wife....
+1
+
+1813
+
+22
+
+Jane Austin
+X-Files2 William Gibson cyberpunk Neuromancer3 upload
+5 life extension
+10 • ....
+
+the first immortals may already be living among us !
+
+transhumanism
+
+——
+benzene6
+fuck fuck
+
+it is far far better than anything I have dreamt of....
+
+2
+3
+
+90
+(1984)
+
+23
+
+6
+
+“I think he’s such an asshole!”
+
+....
+
+•
+
+1
+
+1
+
+ideas of reference
+
+24
+
+dreadlocks
+
+.... “”.... ....
+
+25
+
+7
+
+AVAVAV.... ....
+
+26
+
+....
+1
+
+A B .... B C .... C D ....
+
+A
+
+♥
+
+B
+
+C
+
+♥
+
+D AD AA D
+1
+
+27
+
+♥
+
+D ....
+
+A
+
+♥
+
+♥
+
+C
+
+B
+♥
+
+?
+
+28
+
+D
+
+8
+
+5 (depressed) ()
+
+Fatal attraction1
+
+.... huh
+
+Anna ( Anna)
+
+8
+1
+
+29
+
+....
+
+30
+
+9
+
+2000 Al Gore 4
+
+1
+
+Al Gore
+
+....
+
+2001 9/11
+....
+.... ?
+
+1
+
+31
+
+The best argument against democracy is a 5-minute conversation with the
+average voter – Winston Churchill.
+
+32
+
+10
+
+T
+speechCn....
+
+1
+
+....
+2009 38
+
+3 ....!
+
+2-3
+
+——
+——
+——
+AGE (advanced glycation end-products)
+1
+
+33
+
+paranoia
+
+....
+
+booby trap
+....
+4
+
+4
+
+....
+
+Huh
+
+7-11 (Slurpee)
+
+180◦
+
+34
+
+Tom Cruise ) Tom Cruise (consensual) / ....
+Jack London
+I LOVE YOU
+
+35
+
+11
+
+light reading
+....
+
+.....
+54
+– with shit
+
+36
+
+12
+
+•
+•
+•
+•
+
+neuronaxondendritesynapse
+
+•
+•
+37
+
+•
+•
+
+YouTube Hotel California Iron Maiden
+....
+1
+
+1
+
+38
+
+13
+
+1996
+1
+
+Long Island
+
+come-on
+
+•
+1
+
+Sarah Schulman After Delores(1988)
+
+39
+
+2
+
+13
+
+daddy
+
+2
+
+Inter-galactic Idiot
+
+40
+
+14
+
+100
+
+3 regained composure
+
+BB
+Facebook
+——
+
+Facebook add
+
+....
+
+41
+
+•
+
+•
+
+—— egg you on, right?
+—— •
+˜˜
+
+•
+
+˜˜
+
+5 A ∧ A 14 141000 2271000
+
+....
+1
+1
+
+42
+
+A
+
+stimulant
+
+....
+
+nested loops2
+for i in ["john", "pete", "paul"]
+for j in ["mary", "ann", "jane"]
+print i, "loves", j
+
+CIA AI
+iPad
+——
+——
+
+nested loop
+2
+
+X loves Y
+
+43
+
+A∧A
+
+——
+——
+
+•
+
+.... ....
+
+——
+•
+
+44
+
+....
+
+....
+.... ....
+
+: = :2
+
+(1)
+
+: =2:
+
+(2)
+
+45
+
+3
+
+20
+
+polyamory
+
+4
+
+•
+
+—
+
+3
+4
+
+46
+
+2048 4x4 14
+Mushroom cloud, Clark Gable. Book dedication.
+mom and dad relation.
+Hanasaki cannot help me / make me happy.
+Grandma’s unlikable. Anna is an island.
+
+47
+
+15
+
+Ben Goertzel
+
+2008 Ben
+
+1
+
+von Neumann UNIVAC von Neumann architecture
+
+1
+
+2
+
+Ben
+
+2004
+“I recall with amusement Eckert’s reaction to the impending visit. He said that he could tell whether von
+Neumann was really a genius by his first question. If this was about the logical structure of the machine, he
+would believe in von Neumann, otherwise not. Of course this was von Neumann’s first query.” —— Goldstine,
+The Computer from Pascal to von Neumann [1972]
+2
+
+48
+
+Ben
+
+Lisp Haskell Haskell elitist
+
+Ben Ashkenazi Jew ( Romania) Ben Ben Ben 23 PhD 33
+ProkofievPhilip Glass harmony Ben Buckethead virtuoso Ben
+Ben
+
+logic-based AI uncertainty logic uncertainty uncertainty logic
+
+Ben
+AI AI
+AI
+
+I will be your worst enemy ,
+
+equal opportunity employment
+Abram Demski Abram racism racist racism
+
+49
+
+Abram Demski
+
+AI
+Ben Abram
+Ben charismatic Ben AI US$5M dot-com AI
+Ben PhD Ben sexy
+Ben nerd
+
+quantum chromodynamics QED Ben
+
+Lyndon B Johnson Teddy
+
+Roosevelt Teddy Roosevelt Franklin Roosevelt Ben Truman Roosevelt Truman
+50
+
+—— Cicero
+2010 5 6 Gaza 9-16 Ben
+
+Ben •
+
+51
+
+16
+
+(racism) 9 10 (“because we can”)
+Manhattan project ()
+AI
+“nigger”
+
+(peace is the continuation of war by other means) () (meritocracy) (nepotism)
+
+52
+
+Homer Simpson
+
+racism
+
+racists
+
+....
+“ Thanksgiving ”
+“Halloween ”
+
+=
+
+53
+
+17
+
+racism
+1
+
+(guilt) “shrink” (ego)
+(differential) - (reaction-diffusion of civilizations)
+
+- Belousov-Zhabotinsky
+
+1
+
+“Understanding Paranoia: A Guide for Professionals, Families, and Sufferers”, Martin Kantor MD, 2008.
+
+54
+
+~x
+∂~x
+=
+∂t
+
+· ∇2~x +
+
+55
+
+(~x)
+
+Jared Diamond Guns, germs and steel2
+
+A B
+
+Jared
+
+•
+
+Waiting for Godot3 Che Guevara4 Byron5 ....
+....
+
+—— ——
+
+2
+
+(1997)
+(1953)
+4
+(1928-1967)
+5
+(1788-1824)
+3
+
+56
+
+Jared
+
+A
+
+A.1
+
+57
+
+dendrites axon
+
+()
+
+synapse (); neurotransmitter ()
+(block)
+serotonin
+dopamine () (“zombie”)
+58
+
+A.2
+
+(brain areas)
+
+() 6
+
+serotonin dopamine
+
+serotonin dopamine hippocampus amygdala ()
+
+A.3
+
+serotonin dopamine
+
+59
+
+() dopamine (sub-type) dopamine dopamine
+
+A.4
+
+(abuse)
+
+(psychiatry) ——
+(FDA) Donald Rumsfeld aspartame saccharin aspartame
+
+A.5
+
+(mind uploading)
+6
+
+http://www.rense.com/general33/legal.htm
+
+60
+
+6
+
+61
+
+62
+
+2004
+
+63
+
+Acknowledgments
+
+( Apologize to relatives and friends.... )
+
+64
+
+

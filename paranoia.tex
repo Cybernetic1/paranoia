@@ -45,11 +45,11 @@
 % \usepackage{media9}		% Doesn't work for Linux Acrobat Reader
 
 \ifdefined\chinchin
+\usepackage[no-math]{fontspec}
 \usepackage{xeCJK}
 \setCJKmainfont[BoldFont=SimHei,ItalicFont=KaiTi]{SimHei}
 \xeCJKsetup{CJKecglue = {\hskip 0.1em plus 0.02em minus 0.01em},
 	xCJKecglue = {\hskip 0.1em plus 0.02em minus 0.01em}}
-\usepackage[no-math]{fontspec}
 \newcommand{\cc}[2]{#1}
 %\usepackage{CJKutf8}
 %\setCJKmainfont{ukai.ttc}
@@ -135,7 +135,11 @@
 \linespread{1.3}
 
 %%%%%%%%%%%%%%%%%%%%% count number of words
+\ifdefined\chinchin
 \immediate\write18{./count-words.sh}
+\else
+\immediate\write18{./count-words-en.sh}
+\fi
 
 \begin{document}
 
@@ -185,7 +189,11 @@
 % 欢迎读者们提问或提供意见：
 \cc{作者电邮：}{author e-mail:} general.intelligence@gmail.com
 
-\cc{字数：}{word count:} \input{word-count.txt}  ~~~\pageref*{LastPage} \cc{页}{pages}
+\ifdefined\chinchin
+字数： \input{word-count.txt}  ~~~\pageref*{LastPage} 页
+\else
+word count: \input{word-count-en.txt}  ~~~\pageref*{LastPage} pages
+\fi
 
 \cc{封面插图：}{cover art:}  ``Paranoia or something'' \\
 Nami-Tsuki @ DeviantArt.com (Jessica Allen)
