@@ -13,19 +13,6 @@
 	pdfsubject={auto-biography},
 	pdfkeywords={biography, mental illness, racism}
 	]{hyperref}
-\usepackage[no-math]{fontspec}
-%\usepackage{CJKutf8}
-\usepackage{xeCJK}
-%\setCJKmainfont{ukai.ttc}
-%\setCJKmainfont{gkai00mp.ttf}
-%\setCJKmainfont{KaiTiM}
-%\setCJKmainfont{SimSun}
-%\setCJKmainfont{FangSong}
-\setCJKmainfont[BoldFont=SimHei,ItalicFont=AR PL UKai CN]{SimHei}
-% \setCJKsansfont{SimHei}
-% \setCJKmonofont{SimKai}
-% \usepackage[default]{droidserif}
-% \usepackage[T1]{fontenc}
 \usepackage{gensymb}		% for \degree symbol
 \usepackage{wrapfig}		% for "History conclusion" chapter
 
@@ -57,8 +44,26 @@
 \usepackage[dvipdfmx]{movie15}
 % \usepackage{media9}		% Doesn't work for Linux Acrobat Reader
 
+\ifdefined\chinchin
+\usepackage{xeCJK}
+\setCJKmainfont[BoldFont=SimHei,ItalicFont=KaiTi]{SimHei}
 \xeCJKsetup{CJKecglue = {\hskip 0.1em plus 0.02em minus 0.01em},
-  xCJKecglue = {\hskip 0.1em plus 0.02em minus 0.01em}}
+	xCJKecglue = {\hskip 0.1em plus 0.02em minus 0.01em}}
+\usepackage[no-math]{fontspec}
+\newcommand{\cc}[2]{#1}
+%\usepackage{CJKutf8}
+%\setCJKmainfont{ukai.ttc}
+%\setCJKmainfont{gkai00mp.ttf}
+%\setCJKmainfont{KaiTiM}
+%\setCJKmainfont{SimSun}
+%\setCJKmainfont{FangSong}
+% \setCJKsansfont{SimHei}
+% \setCJKmonofont{SimKai}
+% \usepackage[default]{droidserif}
+% \usepackage[T1]{fontenc}
+\else
+\newcommand{\cc}[2]{#2}
+\fi
 
 % Omit chapter number in equation numbering
 \renewcommand{\theequation}{\arabic{equation}}
@@ -134,10 +139,13 @@
 
 \begin{document}
 
-\includepdf[fitpaper=true]{cover1-mong}
+\newsavebox{\MyName}
+\savebox{\MyName}{\includegraphics[scale=0.6]{YKY.png}}
+
+\includepdf[fitpaper=true]{\cc{cover1-mong}{cover1-en}}
 \cleardoublepage
-\title{\Huge{妄想症}}
-\author{甄景贤}
+\title{\Huge{\cc{妄想症}{Paranoia}}}
+\author{\cc{甄景贤}{John Yan (\usebox{\MyName})}}
 % \date{27 May 2015}
 % \institute{}
 
@@ -175,11 +183,11 @@
 % 这本书的起源是回答《知乎 www.zhihu.com》网站的问题『精神分裂症患者眼中的世界是什么样的？』 ~很多地方写得不好，但我想尽快发表这个草稿，以后还会修改和添补。
 
 % 欢迎读者们提问或提供意见：
-作者电邮： general.intelligence@gmail.com
+\cc{作者电邮：}{author e-mail:} general.intelligence@gmail.com
 
-字数： \input{word-count.txt}  ~~~\pageref*{LastPage} 页
+\cc{字数：}{word count:} \input{word-count.txt}  ~~~\pageref*{LastPage} \cc{页}{pages}
 
-封面插图：  ``Paranoia or something'' \\
+\cc{封面插图：}{cover art:}  ``Paranoia or something'' \\
 Nami-Tsuki @ DeviantArt.com (Jessica Allen)
 % \end{framed}
 \end{center}
@@ -219,9 +227,21 @@ a tender look which becomes a habit}}
 \tableofcontents
 \pagenumbering{gobble}
 
-\chapter{妄想症}
+\chapter*{序}
+
+发觉自己写了本人见人憎的书\\
+这不是爱情小说\\
+而是用科学的态度分析爱情\\
+而我想做到的是 universality
+
+如果妳看到想将这本书 throw away with great force\\
+那妳就是这本书的对象
+
+
+\chapter{\cc{妄想症}{Paranoia}}
 \pagenumbering{arabic}
 
+\cc{
 我有 persecution paranoia (逼害妄想)，特别地叫 Truman Show syndrome。 在《Truman Show》这部 1998 年的电影里，主角活在一齣真人表演里，他身边的人都是演员，但从小欺骗着他，最后他走出了这个骗局。 在外国有很多人有这种妄想，多到形成了症候群的名字。
 
 我 25 岁时 (1996 年) 初到\uline{美国}，那时迷恋我的\uline{美国}堂妹但遭拒绝。 再加上在外国生活和很少朋友， 而且我从小便对白人的种族歧视很有反感，所以觉得自己活在充满敌意的环境里。 这些因素，令我到了\uline{美国}不够一年便产生了 Truman Show 妄想。 (起初是怀疑有人偷看我的电邮开始....)
@@ -243,17 +263,51 @@ a tender look which becomes a habit}}
 关於那些精神科药物，它们是没有帮助的，只是把神经传播的讯号分子阻碍 (blocking)，会导致人嗜睡、没精神、失去动机 (motivation)、性欲等。 男孩子还会变女性化。 说得简单点就是用药物把脑部部份切除 (虽不是永久性的)。 我因为先前研究过如何将人脑的「意识」上载到电脑上 (mind uploading)，所以对神经科学很熟悉。 信我吧！
 
 \uline{甄景贤}是真名 —— 为什么用真名？ 因为我有一半认为，你们已经知道这一切了 \smiley
+}
+{
+I have \textbf{persecution paranoia}, or more specifically ``Truman Show syndrome''.  In that 1998 movie of the same title, a guy lives in a reality show, surrounded by actors who deceived him since childhood, but he escaped from the show finally.  In the US this syndrome has spread like an epidemic after the movie's release.
 
-\chapter{殖民主义}
+I first visited America when I was 25 (in 1996), at the time I was infatuated with my American cousin but rejected by her.  Adding to that I had very few friends in the foreign country, and I have a long-time aversion to white people and their racism, I felt I was living in a hostile environment.  These factors made me grew paranoid within a year of arriving in the US.  (At first it began with some suspicion of people peeping into my e-mails....)
 
+Today, \resultb ~years later, I have still not ``recovered''.  Now that I am typing this manuscript, half of my brain thinks I am typing alone in my room, another half thinks I am typing in a Truman Show with the whole world watching. 
+
+You probably think I'm crazy.  How could I believe something so absurd as \textit{The Truman Show}?
+
+I am a researcher in AI (artificial intelligence), a disruptive technology that may some day in the near future turn the world order upside-down.  For example, the main difference between white people and colored people is probably just the superficial looks, but looks are genetically inherited by DNA, and we Chinese people cannot have those genes unless we kidnap their women for breeding.  With the advent of AI, technological progress can enable people to live forever, humans would be freed from the dictates of genetics, and we could morph into whatever looks we want.  White supremacy would also vanish.
+
+So, white people may not want Asians to have this technology.  And indeed I have actually experienced some hostility from American AI researchers:  they're called OpenCog, the founder is Ben Goertzel.  He is now quite famous, you can look him up.  I have tried to join them several times, but their attitude is rather unfriendly and unwelcoming.
+
+So, if I feel that someone from the US or the West are plotting against me, that probability really may not be zero.  Have you not heard of many anti-US political figures killed by the US?  And my political stance is strongly \textbf{anti-racist}, which logically would entail anti-Americanism.
+
+I'd wanted to find a ghost writer to write this book, but slowly I finished writing pretty much all I want to say.
+
+I was locked up in a mental hospital for 3 weeks, got to know the patients and saw a lot of happenings, that made me sympathize with them.  I was scared shitless, pretended that I was normal so they would release me, which they did eventually, on Christmas day.  That made me think of the 1974 movie \textit{One Flew Over the Cuckoo's Nest}, in which the good guy was electrocuted into an idiot, but the insane guy who thought he is Jesus succeeded to escape.  In that movie they also taught how to hide drug pills under the tongue;  little did I know that the trick could be so useful later.
+
+As to \textbf{psychiatric drugs}, they are pretty useless, acting only to \textit{block} the signals that neurons communicate;  They cause patients to be sleepy, tired, lacking motivation and sex drive, ...etc.  Some boys may become feminine / grow breasts.  To put it simply, the drugs perform \textit{chemical lobotomy} on your brain (even though it may not be permanent).  I know this because I have researched on how to upload the brain's consciousness to the computer (``\textbf{mind uploading}''), so I studied a lot of neuroscience.  Trust me!
+
+\textit{John Yan} is my real name --- why didn't I use a nickname?  That is because I halfly believe that you all know this already \smiley
+}
+
+\chapter{\cc{殖民主义}{Colonialism}}
+
+\cc{
 我爸以前在\uline{香港}当皇家警察的，\uline{香港}回归\uline{中国}后他继续做了几年才退休。 我年轻时从没有因为父亲的职位觉得不妥，但到了\uline{美国}后就开始强烈地意识到了。 毕竟，为殖民主义服务，是卖国的一种形式。 奇怪的是，在\uline{香港}，大部分人压根儿不觉得殖民主义可耻。 有人甚至认\uline{英国}政府是「契妈」、比生母还要亲。 为什么这样呢？ 殖民时期的\uline{香港}虽说是个「华洋杂处」的地方，但其实西人对华人来说，仍然是「高不可攀」的 (这情况或许正在改变)，有很多\uline{香港}人提到要讲\uline{英}语便会脚软。 在这种恐惧之下，他们不能正确地认清殖民主义的真面目。
 
 我接触\uline{美国}后，有好几年都完全被他们的进步文明慑服了，就像小\uline{布殊}说的 ``shock and awe'' 那样。 有时期连中式食物都不敢吃，要吃全西餐。 但后来回到\uline{香港}，在报纸上看到「西方伪善\footnote{western hypocrisy}」这个术语，从此对国际间发生的事，真是豁然明白了很多。
 
 小时，我有个阿姨，去了\uline{英国}念文学。 我见她不多，印象中就只有一次她对我们忆述在\uline{英国}念书的情景，说有一次集体用餐时，她伸手拿面包，有\uline{英国}男生对她说 \speechEn{don't touch that bread!} 那样的话。 (确切的那句话不记得了，总之是叫她不要碰那面包，应该不是叫她吃高纤面包吧？) \ 后来她在\uline{香港}的一间\uline{伊斯兰}中学教书，得了白血病死了。 在我想像中，觉得她是个自尊心很强的人 (在外婆的女儿中，她大概是最漂亮的，学历也最高)，因被人歧视而在郁结中死去。
+}
+{
+My daddy used to be a Hong Kong Royal Police.  After the British handover of Hong Kong to China, he continued for a few years before retiring.  When I was young I never thought much about my daddy's job, but I started to feel strongly once I visited America.  After all, serving under colonialism is sort of traitorous.  What is strange is that in Hong Kong many people utterly don't feel any shame about colonialism.  Some of us even think the British government is a ``step-mother'', even dearer than the birth mother.  Why so?  Though it is often said that colonial Hong Kong was a place where ``East meets West'', the reality is that Westerners were still pretty segregated and unapproachable from the locals (this situation may be changing now). Many Hong Kongers felt their legs shake when they needed to speak English.  Living under such fears, they could not recognize the true face of colonialism.
 
-\chapter{世界 A 和世界 B}
+When I first experienced America, I was very much in awe of their advanced culture, just like George Bush Jr said ``shock and awe''.  For a while I even stopped eating Chinese food, I wanted to eat wholly Western-style.  When I returned to Hong Kong, I saw on the newspaper a curious phrase: ``\textbf{western hyprocrisy}'', and that got me suddenly to start to understand the workings of the world globally.
 
+When I was a kid, I had a young aunt who went to England to study English literature.  I didn't see her a lot, but I remember clearly she once told us about her experiences when studying abroad.  She said, one time when she was dining with other students, she reached out her hand to grab a piece of bread, and a British student said to her ``Don't \textit{touch} that bread!'' or something like that (I forgot the exact words, but he wasn't telling her to eat wholegrain bread, I guess?)  Later on she came back to Hong Kong and taught in a local Islam school, and got leukemia and died very young.  In my mind, she was a very proud person (among the daughters of my grandma, she was probably the prettiest, and also the highest educated), I imagined that she died in bitterness because of the insult.
+}
+
+\chapter{\cc{世界 A 和世界 B}{World A and world B}}
+
+\cc{
 自从思觉失调之后，我无法分辨这个世界究竟是世界A (现实) 还是世界B (真人秀)。 在地铁看见别人窃窃私语时，不知道她们是不是在谈论我。 总觉得\uline{香港}和\uline{美国}的电视节目在含沙射影地嘲讽我，有时又用肥皂剧的角色映射我、咀咒我死掉； 这些都令我极之讨厌。 但我又无法分辨世界 A 和世界 B。 换言之，我已经变成了一个盲人，就像《圣经》\footnote{我是无神论者，但圣经里的故事有时是很有意思的。}里 Samson 和 Delilah 的故事：Samson 被她出卖之后，被人剪去头发和弄盲了，从此他的努力工作都是\em{徒劳无功}的，变成了他的敌人的笑柄。 我常常觉得，我当初和堂妹的纠缠，就是解开这一切问题的关键，所以不停地分析那段日子。 那时候思想和感情都很混乱，是走上疯狂之路的开端。
 
 首先要釐清的是，我虽然迷恋她，但其实也看不起她、也有想要别的女孩，而我我像遇难的船客掉进了\uline{太平洋}，像抓着救生圈那样缠着她不放。 因为她是 ABC\footnote{American born Chinese}，她是一张打入白人社会的入场券，能娶到她该多好啊，否则就像漂浮在大海，徬徨着不能「上岸」。
@@ -261,9 +315,25 @@ a tender look which becomes a habit}}
 终於在\uline{纽约}见到她，她已经明显不喜欢我。 那时我带来了一本书，是一个\uline{加拿大}华裔女孩写的，讲她离家出走后卖淫的自传式小说，我知道女孩子没有不喜欢那种书的，果然我把书遗在伯娘家，然后她两姊妹都看了。 书还回来后，竟然有堂妹的笔迹写的小纸条，就只写了一句 \speechEn{``no escape except through death''}\footnote{『没有出路，除非通过死』}。 那时我觉得她是在耸恿我去把我的某个中学同学杀掉。 (因为堂妹最初跟伯娘到\uline{香港}旅行，那是我最初喜欢她的时候，我把那中学朋友介绍给她，原以为大家可以一起开心玩，没想到他俩眉来眼去，把我变成傻子一样。) 我越想越觉得那是奇耻大辱，非要杀他报仇不可 (就像一把插在我和堂妹之间的剑，一定要拔掉)，但自己又身陷全球直播的真人秀里，怎能杀人？ 而且，堂妹若真的爱我，怎会要我杀人为条件？ 当初不是他俩在调情才做成这耻辱吗？ 每想到这里就愤怒到浑身发抖。
 
 十几年后，最近终於好像明白了她那句句子的意思。 其实在\uline{美国}文化里，最高级的人是金发蓝眼的；如果红头发的话，是不祥的；如果黑头发，那么她们触摸的一切都会变成悲剧。 至於\uline{犹太}人更不用说了，把卷曲的头发烫直再说吧。 而黄种人比\uline{犹太}人更低级。 我妒忌我的\uline{美国}堂妹比我「先上岸」，仿佛她先过我变成了白人，我妒忌到想把她杀了，而我以前从来未对人怀过那么深的怨恨。 而其实，这个所谓「上岸」指的是什么？ 所有\uline{美国}华侨，在\uline{美国}只不过过着次等的、没有尊严、像影子一般的 existence。 就算 Whitney Houston\footnote{(1963-2012) \uline{美国}黑人女歌手，她的歌词里叫人要懂得自爱，不要活在别人的影子下，我中学时老师播给我们听。} 都不过是个影子，\uline{奥巴马}更干脆背叛了自己黑人的那一半，他还 cool 到露出微笑。  注意：\uline{乔布斯}\footnote{(1955-2011) 苹果电脑的创始人}就是一个「认继父母不认亲父母」的人。 在\uline{美国}，有色人种越来越绝望，甚至当妓女贱卖，那些白人男孩都未必会揪一眼。 谁都上不了岸，我们在海难中互相拉扯，丑态百出。『除死以外没有出路』可能就是这个意思。
+}
+{
+Ever since I got this mental illness, I cannot distinguish between World A (the reality) or World B (the Truman Show).  In the subway, when I see people gossiping, I wonder if they were talking about me.  I always feel that TV shows in Hong Kong and in the US were poking fun at me obliquely, cursing me to die and such, and all these annoyed me greatly.  But I couldn't tell World A from World B.  In other words, I have become like a \textbf{blind} person, just like the story of Samson and Delilah in the Bible \footnote{I am atheist, but I think some biblical stories are quite meaningful and can be learned from.}:  After Samson was betrayed by Delilah, they cut his hair and blinded him, and made him work \textbf{futilely};  He became the laughingstock of his enemies.  I often felt, this messy affair between me and my cousin, must be the key to disentangle the whole mess, and so I keep analyzing it endlessly.  At that time my thoughts were very chaotic, it was the beginning of the road to madness. 
+
+First thing I need to clarify is: even though I was infatuated with her, I also despised her somewhat, and I also fancied other girls.  I was just like a man drowning in a shipwreck in the Pacific Ocean, grabbing onto her like a lifesaver.  Because she is ABC (American born Chinese), she is like a ticket for me to enter white society.  It'd be so nice if I could marry her, or I'd be floating in the ocean, struggling to get ``on shore''.
+
+Finally I got to see her in New York, but she clearly disliked me by then.  At that time I brought a book with me, an autobiography of a run-away Asian-Canadian girl, about her prostitute street life.  I knew that all girls love that kind of book, so I left it in my aunt (cousin's mother)'s house, and my cousin and her sister both read it as expected.  When the book came back, I was surprised to discover a tiny piece of paper, on it was written just the words:
+
+\setlength{\fboxsep}{10pt}
+\tab \fbox{\speechEn{no escape except through death}}
+
+At the time I thought it meant she wanted me to murder a high-school classmate of mine.  (Way back, my aunt brought my cousins to Hong Kong for a summer vacation, and that was when I first started to like her.  I introduced my high-school classmate to them, thinking we could have a fun time together, but my cousin exchanged flirts with him and treated me like a fool.)  The more I thought about it, the more I felt this was an unforgivable insult, and that I must kill him to avenge it --- like a sword wedged between me and my cousin, and I had to pull it out.  But I was also in a Truman Show, how could I plot to murder someone?  And moreover, if my cousin really loved me, why would she require me to kill someone as a condition?  Wasn't it because of her flirting with that guy, that created this insult in the first place?  Every time I thought of this my body shook with anger.
+
+More than a decade later, now I seem to understand that sentence she wrote.  In American culture, the highest-status people are blonde with blue eyes;  red hair is unlucky;  and if someone has black hair, everything she touches turns into tragedy.  As for Jews, they should just straighten up their frizzy hair first.  And yellow people are still lower than Jews.  I was jealous of my cousin getting ``onshore'' earlier than me, as if she turned into a white person before I could.  I was so jealous I wanted to kill her, and I had never felt such a great hatred towards anyone.  Though frankly, what does this ``onshore'' even mean?  All Chinese immigrants in America live a second-rate, shadow-like existence without dignity.  Even Whitney Houston\footnote{(1963-2012) American black singer whose song our high-school English teacher played to us.} was just a shadow.  Barack Obama simply chopped off his black half, and he was so cool he even smiled at it.  Note:  Steve Jobs\footnote{(1955-2011) American entrepreneur, founder of Apple Inc, born to a Muslim father and a white American mother.  Their marriage was opposed by the mother's father, so she give up the baby for adoption.} is exactly the kind of person who thinks the \textit{step-mother dearer than birth-mother}.  In America, colored people are getting so desperate, that even if they prostitute themselves cheaply, white boys may not bat an eye towards them.  No one could get on shore, but we are trampling over each other to get ahead, displaying all sorts of ugliness.  ``\textit{No escape except through death}'' may mean this.
+}
 
 \chapter{American cousin}
 
+\cc{
 1991 年（\resultb 年前），来自\uline{美国}的伯娘和两个堂妹来\uline{香港}旅游。 我 20 岁，刚进大学二年，堂妹 14 岁。
 
 那时候家里很热闹，来自\uline{英国}的表弟也和一个白人朋友来\uline{香港}旅游，所有人都住在我家。  堂妹她们到达的那一晚，我刚从大学宿舍回来，她们已经进房睡了，妈在客厅中低声向我描述这些新来的客人。    她面带愁容地说： \speechCn{哎吔....！ \ 那两个堂妹的打扮很吓人.... 那个大的痴肥得像座山；\  那个小的，年纪轻轻已经涂指甲、口红、香水，像个老人精！}   我听了之后心里已经很喜欢她； 这些故事从来就是这样开始的。
@@ -277,9 +347,26 @@ a tender look which becomes a habit}}
 \resultb 年来我不停思索为什么她嫌弃了我。
 
 14 岁的她说：\speechCn{[老]\uline{布殊}在\uline{伊拉克}打仗，他还一边打高尔夫球！} 我说我们香港人不问政事，不知什么叫打仗，与及一些类似的蠢话。  现在我明白到，她说的很对，她年纪小小已经很懂事。  现在我知道正确的答案，是我们应该要打倒\uline{美国}的帝国主义和种族歧视。
+}
+{
+1991 (\resultb ~years ago), my aunt and 2 cousins came from America to visit Hong Kong.  I was 20, just entered university year 2.  She was 14.
+
+That summer our house had a lively crowd of guests.  Another (boy) cousin from England and his British friend also came to Hong Kong for vacation, and they all stayed at our place.  The night my girl cousins arrived, I just came back from university campus, they have gone to the bedroom.  My mother came out to the living room to describe to me these strange visitors.  She spoke with a very worried look on her face, ``Oh dear... your cousins look so \textit{frightening}... the older one is so fat she looks like a \textit{mountain}... and the little one, she's so young and already putting on lipsticks, makeup and perfume like an \textit{old lady}!''  So I instantly took a liking to her;  These stories always begin like that.
+
+We have barely known each other for one day, and she said to me, ``Even cousins can get married, if they don't have kids.''  I nodded my head deliberately and seriously.
+
+5 years later, the lovesick me went to New York looking for her;  She said she had a boy friend already, she had to get married and have kids; We are impossible.  I wouldn't let go of her; I said she didn't give me a reasonable explanation.  She said I sounded like a psychopath and scared her.  Indeed, I had actually started having paranoid thoughts (she didn't know that);  Part of the reason I wanted to talk to her is to help me clarify whether I'm under surveillance or not, or could she also be one among the watchers?
+
+Actually in the summer of 1991, just days after knowing each other, she had changed her mind, saying, ``I just want an elder brother, to beat up the people who bully me''.  I remember my first response was ``Huh? Beat up who?''
+
+For \resultb ~years I kept thinking why she rejected me.
+
+At 14 years' age she said: ``George Bush (Senior) is fighting a war in Iraq, but he still goes to play golf!''  I said:  we Hong Kong people don't care about politics, we don't know what is war --- and stupid things like that.  Now I realize, that what she said was very right, she was so young but she understood a lot.  And now I know the correct response should be that we should knock down American imperialism and racism.
+}
 
 \vignette
 
+\cc{
 在\uline{纽约}的大学宿舍，正对着窗前是一颗大树，春天时，树上的一对鼬鼠 (？其实我也不清楚它是什么动物)天天在追逐。 大概是发情期吧，那雄性鼬鼠老是朝着雌性的尾部追去，但又总是追到贴近尾部 却又揽不住她，看起来就像只是为了嗅那气味，看得我直冒火。  我只身来到\uline{纽约}，但堂妹不想见我，我们当时的处境分明就像那两只在追和被追的鼬鼠，我觉得那境象简直令人眼冤，就像拉粪和放屁的生理现象那样讨厌。  想起一本小说的名字： The Heart is a Lonely Hunter。  想起当时一齣电影中理想的情侣、《青青珊瑚岛》、在花间嬉戏、女的含情脉脉地看着男的，那景象和我的现实截然不同。  我是在追者，她是在逃者，但《青青珊瑚岛》的他俩是两情相悦的。  一定有什么出错了，但又想不出是什么原因；~ 感觉一切都和我作对，everything is against me。  \uline{莎士比亚}说：世界是舞台，我们是演员，而我发觉我这「在追者」的角色是一个根本不可能演得好的角色。  我一步也不可以追，一追就错了，但我已经在追了。
 
 我又想起一齣电影： 年青人的漂亮妻子被敌人胖子看上了，他们互相赌博，年青人把身家输光了，把妻子也拿来赌。  当然最后还是年青人赢了。  在那结尾的一幕，他把妻子赢回，而胖子啕哭起来，那女的用手揉他的背 ~安慰他。  为什么这角色降临到我身上？
@@ -301,9 +388,30 @@ a tender look which becomes a habit}}
 我想起，其实她似乎也喜欢很多别的男孩。 在她14岁那个夏天，我们很自然地聊到性的话题。  我理所当然地说：\speechCn{我喜欢很多种类的女孩，但妳是女孩，妳当然只会和妳真正喜欢的男生才做爱。}  可是她说：\speechCn{不啊，我跟谁都做！}  我被她突如其来的反驳搞得不知所措，而且很害怕她会和别人做爱。 我安慰自己说，她一定是说笑而已....
 
 等公车的时候不见公车，不等的时候却遇见很多。  在\uline{纽约}单恋堂妹的时候，特别多女生勾引我。 但我那时故意不睬别的女生，以表示我对堂妹有多忠心。  其实那只是我一厢情愿地想找些理由逼她喜欢我。  在大学上课时，有个女生在后面丢了笔到地上，而我居然全身绷紧了不去帮她拾，因为我怕是她在勾引我。  我甚至隐约听到那女生很惊奇地低声说 \speechEn{``what?''} 然后她自己拾回那笔。
+}
+{
+At the student hostel in New York, there was a big tree outside my window.  In the spring, a pair of squirrels (? I'm not even sure what animals they are) chased each other all day long.  Maybe it was their mating season, the male squirrel kept following the tail of the female, but he always just got close to the tail, without ever catching her, and it looked as though he's just doing that to smell her odor;  That sight irritated me so much.  I came to New York all by myself, but my cousin didn't want to see me, so our situation is just like that squirrel chasing the other.  This is so unbearable to watch, as disgusting as the physiological acts of shitting and farting.  I remember the title of a novel:  \textit{The Heart is a Lonely Hunter}.  I thought of those ideal lovers in the movies, \textit{The Blue Lagoon} or whatever, lovers playing amidst a bed of flowers, the girl looks at the boy with longing eyes, that image is so different from my reality.  I am the chaser, she is chased, whereas in \textit{The Blue Lagoon} they mutually love each other.  Something must be wrong, but I couldn't figure it out.  I felt that \textit{everything is against me}.  Shakespeare said the world is just a stage and we are the actors in it, but I found that my role as the ``chaser'' is impossible to play successfully.  I should not chase even for one step; Just one step is wrong, but I was already chasing.
+
+I remember another old movie:  Young man got into gambling rivalry with a fat guy, losing all his money and even his beautiful wife to the fat guy.  Of course, he won her back at the end.  In the last scene, as the wife leaves him, the fat guy started to cry fitfully, and she patted his back to comfort him....  Why has this role fallen on me?
+
+I remember another time in the subway, a mother scolded her child in front of other passengers, and the little girl was covering her ears tight, ashamed that her mum disclosed her bad deeds to strangers.  I was like that girl, unwilling to hear the truth.
+
+I had an image in my mind:  I was not wearing clothes, my yellow-skinned body looked like a low animal, and I was toiling clumsily and primitively, using my bare hands to pick up mud, to build a tiny wall trying to encircle my cousin into my world, and that mud tower is pathetically small, it could barely circle myself, and the inside is filthy and smelly, and my cousin was watching me from high above and I didn't know it.  More and more I felt that this mud tower cannot be sustained any longer, the truth is coming at me from all directions.  Finally I raised my head and saw my cousin watching me, I got angry and scolded her: ``You knew it all along that you wouldn't love me, why didn't you tell me earlier?''  And then suddenly I realize:  Wasn't this what she's been telling me all the while?  and I miraculously could not take it in?
+
+And I thought, everyone in their lives must go through the pain of heartbreaks, why am I handling this so badly?  Many of my old classmates graduated from college, got married, had kids, and we never heard such scandals from them.  Why is everyone else adjusting so well, maybe my mum forgot to teach me something?  Why isn't this in the textbooks?  There's this one friend from high school, who climbed up his college dorm room to check on his girl friend, and saw her cheating with another guy, and he fell from the wall and broke his leg.  He's exactly the guy I mentioned before, the one that flirted with my cousin.
+
+One night in the dorm room, I worked up the courage to call her on the phone, but I was afraid.  I pickup up the phone and put it down, picked it up and put it down.... , finally I called her.  She asked, ``What do you want to say?''  And I said, ``I... I... I...'' and kept stammering the word ``I'', literally for 1 or 2 minutes.  That's because I had a guilty conscience, I did not truly love her, it's just that I couldn't have her so I wanted to conquer her.  I felt that my love was not real, obviously I despised her, but I feared she could see through it.  I wouldn't die for her, and I even predicted with certainty, that after I got her I will turn my attention to other girls.  That was like a battle of true hearts, and I felt guilty, and I said at long last, ``I.... I.... I.... love you very much.''  She seemed very offended and slammed down the phone receiver.
+
+Later, on the internet I discussed this with an American woman, and she is a bit arrogant, she said, ``Your cousin is smart.... Forget her and move on.''  But I start to doubt it more and more.  Women read a lot of romance novels, but do they really know about love more than men do?
+
+I recall, that she actually seemed to fancy many other boys as well.  That summer when she was 14, we were chatting randomly and the conversation landed on the topic of sex.  I said to her matter-of-factly, ``I like many types of girls, but you, you're a girl and you'd only have sex with the guy you really love.''  But she said, ``no, that's not true, I sleep with everyone!''  Her comeback caught me off-balance, and I was scared by the thought of her having sex with someone else.  I comforted myself by thinking she must be kidding me....
+
+When you wait for the bus it won't come, but when you're not waiting you see many.  In New York when I was yearning for my cousin, lots of girls tried to seduce me.  But I deliberately ignored them, just to show how faithful I am to her.  That was just my one-sided attempt to make a reason that she must love me.  One time in a class in university, a girl sitting behind me dropped a pen, and I just sat there with my body all tense, not picking up the pen, as I thought she was seducing me.  I even heard her ``what?'' uttered from her in surprise, and then she picked up her own pen.
+}
 
 \vignette
 
+\cc{
 在\uline{纽约}，她的 (不是男友的) \uline{美国}朋友 Ralph 对我动手动脚，警告我不要再骚扰堂妹。 我没有还手，当时的我实在搞不清发生什么回事。 然后我跟伯娘投诉堂妹为什么不给我解释，打了伯娘一下。 伯娘打电话招援，我被他们一众亲戚朋友打了一顿。 我说 Ralph 先动手打我，但我不知他们接收到没有。
 
 被打一顿之后，我跌坐在房子外的草地上，手臂在流血（但只是皮外伤）。  伯娘指着我骂：\speechCn{你这算读什么书？ 读屎片！？}  过后又写了张支票给我，也许是作为「失恋补偿」？  这次事件后我和她们很少见面了。
@@ -319,19 +427,47 @@ a tender look which becomes a habit}}
 其实她也有缺点，也是个普通人。 14 岁的她也说过一些蠢话，蠢到笑死人。 想不想听？ 例如她说：  \speechCn{我以前不信有鬼，但看了《Ghost》\footnote{《人鬼情未了》(1990)} 这齣电影后我真的信了。}  那个主演的 Patrick Swayze 现在真的变了鬼。
 
 她又好像很好心地告诫我： \speechCn{\ds{不要信任何人}！}  回想起来， 她的一句话，和我被那中学朋友出卖等事，真的令我什么人都不信了。 而彻底怀疑的结果就是我连所有人是不是在演戏都分不清，甚至包括她在内。
+}
+{
+In New York, her male friend (not boyfriend) Ralph was acting rough with me, warning me not to bother her.  I did not fight back, not knowing what exactly was going on.  When I later complained to my aunt why my cousin would not give me an explanation, I hit her once on the arm.  Aunt called for help, and I was beaten up by the bunch of relatives and friends that arrived.  I told them that Ralph hit me first, but I wasn't sure if they've heard me or not.
+
+After they beat me, I sat on the lawn outside my host's home, my arm was bleeding (but it was only a slight wound).  Aunt was pointing at me and scolding, ``You call yourself an educated man?  What kind of shit did you learn at school!?''  Later she wrote me a cheque, perhaps as some kind of break-up compensation.  After this incident I don't see them much anymore.
+
+That night, my aunt had come to help me move house, driving a long way to my host's place, but I wasn't thankful for her and even thought she owed me.  That time was the lowest point of my life, I was literally \textit{inconsolable}.
+
+Aunt had explained some things to me before: ``If she really likes you, she wouldn't be acting like this'', ``If you think she despised you, you work harder and be better than her.''  Her words are very true indeed, and I pulled myself together and really worked hard afterwards.
+
+Today, \resultb years later, when I see Hong Kong people behaving like wusses, I feel an urge to punch them in the face, just to teach this society to get its act together.  But isn't that like punching the person that was me \resultb years ago?
+
+I was jealous of my cousin, because her parents emigrated to America first, they learned to be like white people, with their advanced culture and aggressiveness and guile, whereas I was just a timid country boy from Hong Kong.  I was very mad, why was this little girl teaching me a lesson, but I couldn't think of a single reason to criticize her (except for some trivial things).
+
+But she has her weak points too, just like any ordinary person.  At 14 she said some stupid things, so stupid you'd laugh to death.  Want to hear?  For example, she said ``I used not to believe in ghosts, but after watching the movie \textit{Ghost}\footnote{A 1990 romantic hit movie.} I believe them now.''  That lead actor Patrick Swayze had since become a real ghost.
+
+She also told me once, as if to give me helpful advice, ``Never believe in anybody!''  Thinking back, it might be this single line of hers, added with the high-school friend who betrayed me, that really made me not believe in anyone anymore.  The complete distrust made me unable to tell if anyone is an actor or not, even including her.
+}
 
 \vignette
 
+\cc{
 初相识的时候，我常为小事对她说「对不起」，但她说：\speechCn{不要老是 say sorry, 我最讨厌人说 sorry!}\ ，而我在她面前真的常常表现得笨头笨脑。  她走之后我发了神经，无论什么情况都不对人道歉。  在\uline{纽约}的大学，有一次迟到，理应对教授说 \speechEn{``sorry I'm late''}，但我却只说 \speechEn{``I'm late''}。 那教授很惊奇地说： \speechCn{Mister Yan，你刚才对我说你迟到？}  我点了点头。 我其实很蠢，那大概是对堂妹的一种「无声的」投诉，\speechCn{你看看我听妳的话弄到什么地步？}  但在「世界 A」的解释下，教授和同学都不会听得懂，他们大概在纳闷： \speechCn{这\uline{中国}人为什么不说 sorry？}  然后必然想到帝国主义、种族歧视那些。
-
+	
 在\uline{纽约}，她责备我为了见她而要我父母出钱供我到那里读大学，很「自私」。 但后来我憎厌她之后我又想： \speechCn{我来\uline{美国}读书有何不妥，\uline{纽约}难道是妳的？}
-
+	
 \em{\uline{纽约}是谁的？}
-
+	
 在宿舍的床上，我想着她，越想越觉得自己受骗了，但又说不出所以然。  突然间胸口觉得很闷，我用手臂锤了胸部一下，像打鼓那样，然后才意识到自己做了这个动作。  我立即心想： 妈的，怎么我这动作和猩猩一样？  这下羞死了，看真人秀的所有观众一定笑到流眼泪。
+}
+{
+When we first met, I often apologized to her over little things, but she said, ``Don't say `sorry' all the time, I really hate people who say sorry.''  I felt dumb and clumsy around her.  After she left, I went nuts and never again apologized to people no matter what happened.  One time at the university in New York, I was late for class, I should have said to the professor, ``sorry I'm late'', but I said instead, ``I'm late.''  The professor was shocked and responded with a funny look on his face, ``Mister Yan, you just said you're late?''  I nodded.  I was so dumb, that was like some kind of ``silent'' protest I made to my cousin --- ``see what you've done to me?''  Under the \textbf{World A} interpretation, the professor and students would not understand this, they'd be wondering why is this Chinese guy not saying ``sorry''?  And that would probably lead them to think of things like racism and imperialism.
+
+In New York, she scolded me for making my parents pay for the college just so I could see her, that is so ``selfish''.  Later when I grew to hate her I began to think, ``What's wrong with me coming to America to study?  Does New York belong to you?''  \uline{New York belongs to whom}?
+
+On the bed in the dorm room, I was thinking of her, and the more I thought the more I felt that I was cheated by her, but I couldn't name the reason.  Suddenly I felt a heaviness on my chest, I pounded my chest with my fist, like a beat on the drum, and it was only afterwards that I realized I made such a movement.  I thought immediately, ``God damn, why the fuck did I act like a chimpanzee?''  That's such a shame, the audience who were watching my reality show must have laughed to tears.
+}
 
 \vignette
 
+\cc{
 为了这件事，我父母飞来\uline{纽约}调停，我们3人暂住在伯娘家的地库，堂妹她们就在楼上。 有一次我和妈妈独自谈话，她说堂妹把我寄给她那封情信给我爸妈看，还投诉我怎样骚扰她。 我对妈说： \speechCn{我只是想听听堂妹的解释，和她谈一下}（因为我想知道有没有人在监视我，那时我觉得全世界只有堂妹能明白我，而我不想和妈妈提到我患了被监视的病，因为她也是我要「揭发」的人之一（见第\ref{cause-of-illness}章）），\speechCn{为什么她连跟我讲清楚也不肯呢....} \,\, 但我妈说： \speechCn{我们也问过她，但她坚定说她不想见你。}  我说：\speechCn{为什么她连和我谈一次也不肯....} 这句话未说完，我的眼泪不能控制地滚下来，像个小孩子地淘哭起来。 是我妈把我教成像大男人，她从小教我男孩子是不会哭的。
 
 我哭了，实在想不到她怎会冷酷到这样....  \ 我在疑问： \speechCn{美国人究竟对妳做了什么？}
@@ -347,9 +483,27 @@ a tender look which becomes a habit}}
 弟弟也从\uline{英国}飞来\uline{美国}探我，还陪同他的\uline{日本}同学。 我还在骂堂妹「为什么不给我解释」，弟弟问我： \speechCn{首先，你能不能接受她不喜欢你这件事？}  我说： \speechCn{我当然可以接受她不喜欢我，我只是想她给我一个解释。}  弟弟说： \speechCn{你这样做是``\ds{以己度人}''，你觉得分手必须解释清楚，但有些人就觉得什么也不说最好，你不能勉强她用你的方法....}  但我当时听不进去。 事后弟弟说，这次\uline{美国}旅行，也因为我的事而蒙上阴影，令他对\uline{纽约}留下很不愉快的印象。
 
 我最近又记起，我问妈妈： \speechCn{为什么她一句话也不能谈，妳不觉得很离谱？}  妈妈说： \speechCn{有些女人就是这样的，她们喜欢将男人折磨和激怒，还引以为荣！}  我想起这话，觉得我妈真荒谬： 妳怎会觉得我堂妹是这样的人？ 难道妳自己就是这种贱格女人？  %噢.... 原来妳真的就是这样。
+}
+{
+For this matter, my parents flew to New York to help mediate.  The 3 of us stayed at aunt's house in the basement, while aunt and the cousins lived upstairs.  Once, I was talking to my mum, she told me that my cousin showed my love letter to her and dad, and complained of how I was harassing her.  I told my mum:  I just wanted an explanation from her, just to talk to her (I wanted to know if there were people watching me, as I felt at that time that my cousin was the only person who could understand me, and I didn't want to discuss the paranoia with my mum, because she is among the people whom I had wanted to ``expose'' (see \S\ref{cause-of-illness})).  ``Why wouldn't she even talk to me....?'' \,\, But my mum said, ``We have asked her too, but she just said she doesn't want to see you.''  I said, `Why wouldn't she talk even once with me....'' and as this sentence had not finished, my tears start rolling uncontrollably down my face, I cried like a little boy.  It was my mum who taught me to act like a macho tough man, she taught me that boys don't cry.
+
+I cried, I really had not expected she could be so cruel....
+
+I felt she betrayed me....  she would not unite with me against America.... it'd be she uniting with America against me....
+
+People would forget about the Iraq war....  I would be unable to tell whether people are watching me or not....  people would think I'm crazy....\\
+.... \, ....
+
+After a long time, I slowly recovered, telling myself not to believe in that Delilah story in the Bible;  I am not finished just because she betrayed me.  If a woman turned bad just replace her with another.  But I have not found a good girl to this day.
+
+My younger brother also flew from England to New York to visit me, with his Japanese school friend.  I was still chiding my cousin for ``not giving me an explanation.''  My brother asked me, ``First of all, can you even accept the fact that she doesn't like you?''  I said, ``Of course I can accept that, I just want her to give me an explanation.''  My brother said, ``You're using your own standards to judge others.  You think it is right to give explanations for breaking up, but some people think it is best not to say anything, you can't force her to be like you.''  But I couldn't listen at that time.  My brother said, this trip to America had been shadowed by my sad affair, even giving him an unpleasant impression of New York.
+
+I remember asking my mum, ``Why didn't she even say one word with me, don't you think that's unreasonable?''  Mum said, ``Some women are just like that, they like to torture and irritate men, they even feel pround of doing that!''  As I recall this, I feel that my mum is just ridiculous:  How could you think my cousin is that kind of person?  Maybe you are just this kind of nasty, despicable woman?
+}
 
 \vignette
 
+\cc{
 我大伯早死，堂妹幼年丧父，她是那种没有管教的女孩，加上是\uline{美国}人，常常笑我们老土，连我父母都怕了她说话刻薄。 而我被父母管得透不过气，那使我很倾慕她。
 
 在\uline{香港}，我带她到一间叫 American Cafe 的地方饮咖啡，但她嫌那地方不是「正统」的\uline{美国}餐馆 ，令我觉得很丢脸。 但其实，在\uline{香港}吃\uline{麦当劳}和吃一间非正统的\uline{美国}餐厅，其可耻程度究竟有什么分别？
@@ -363,12 +517,33 @@ a tender look which becomes a habit}}
 堂妹其实也不算很漂亮。 其实我在\uline{美国}时有一个意识就是：如果连她都追不到，那些金发碧眼的妞儿就更加追不到了。 那使我惭愧，因为我只想像\uline{亨利8世}那样娶 6 个老婆。 现在我也变得很滥交。 谁不会？  所谓用情专一 (monogamy) 只不过是年轻男女为了抬高身价，把自己卖得贵一点，之后又哭着说「对不起，我控制不了。」
 
 但我始终很惭愧我当时觉得她不够白人女孩漂亮，想起她「嬲爆爆」(发怒时) 的脸。 我现在觉得\uline{中国}女人很美，可能那才真的是精神错乱了 \smiley
+}
+{
+My uncle died early, my cousin lost her father at a tender age, she is one of those undisciplined young girls.  And being American, she often laughed at our backwardness, even my parents were afraid of her sharp words.  Whereas I have always been disciplined strictly by my parents, that made me admire her so much.
 
-\chapter{长生不老}
+In Hong Kong, I brought her to drink lemonade at a place called American Caf\'{e}, but she snarked that it is not a genuine American brand, and I felt losing face.  To tell the truth, why is eating at a fake American restaurant more shameful than eating at MacDonald's?
 
-有案例表示，有些人精神受了打击，愤怒会导致他们短暂变盲。 我没有到这地步，但我和堂妹翻脸后的确经过了长达1$\sim$2年的怒不可竭的时期。
+In \textit{The Dream of The Red Chamber}\footnote{Chinese classic novel written in the 1760's}, \,贾宝玉\, (``Precious Jade'') said that men are filthy things, but women's essence is pure.  Rumor has it that the story after Chapter 80 is not written by the original author.  So the story of Precious Jade being tricked into marrying another woman, and Black Jade dying of a broken heart, may not be the author's original intent.  Isn't the author \,曹雪芹\, famous for the technique of leading the reader into a trap, only to \textit{disillusion} him afterwards?  And that's why \textit{The Dream of Red Chamber} is called a ``dream'', isn't it?  I like using this technique in my own writing as well!  However, that plot about Precious Jade losing his jade and meeting the True Precious Jade, is such a magical touch, that makes me wonder if anyone could be so imaginative to complete the story?
 
-那时我在读文学，教授说： 缺乏经验的年轻男子，往往将女人摆到神枱上，\speechEn{put her up on a pedestal}，受骗以后才发现她们的缺点。  我觉得教授也知道了我和堂妹的事，在开导我。
+But there's no need to dwell on this issue, since that is just a work of fiction, and my purpose here is not to write fiction, but to analyse and calculate with objectivity.  That is why I am critical towards everyone, including myself.  We need to rely on our own thinking to find answers, instead of believing in old books.  It is said that Fermat did not know the proof of the famous theorem that bears his name, mathematicians generally believe that he was mistaken, and the real proof had to wait till the development of 20-century mathematics.
+
+As Haruki Murakami said, writing is a kind of self-therapy.  If I don't write this down I couldn't even tell who was right or wrong.  I was once so mad that I wished to kill my cousin, but now I just want to figure out who did wrong exactly.  She absolutely had the right to reject me, maybe the reasons were too embarassing to admit.  After all, our DNA were 12.5\% identical, maybe she could not bear to tell me, ``brother, I'm officially dumping you because you look like shit, you have no talent, and you're much older than me'' ?  Even now I often ignore other women whom I think are not pretty enough, or not smart enough.
+
+My cousin is not really that pretty.  Even while in America I have had this reckoning:  if I could not even get her, there would be no chance for me to get those blonde-hair blue-eyed white girls.  That made me feel so ashamed, I just wanted to have 6 wives like Henry the 8th.  Now I have become very promiscuous.  Who wouldn't?  To have one love only, or so-called monogamy, is just young men and women trying to market themselves with a better price, and then they would beg with tears saying ``Sorry, but that is out of my control.''
+
+Nevertheless, I would always feel ashamed for thinking she was not as pretty as the white girls, remembering her face when she was angry.  Now I think that Chinese women are very pretty, maybe I am really mentally ill \smiley
+}
+
+\chapter{\cc{长生不老}{Immortality}}
+
+\cc{
+有案例表示，有些人精神受了打击，愤怒会导致他们短暂变盲。 我没有到这地步，但我和堂妹翻脸后的确经过了长达1$\sim$2年的怒不可竭的时期。}{
+There exist clinical records of people who turned temporarily blind after suffering traumas.  Though I have not reached that stage, I went through 1$\sim$2 years of rage after the quarrel with cousin. }
+
+\cc{
+那时我在读文学，教授说： 缺乏经验的年轻男子，往往将女人摆到神枱上，\speechEn{put her up on a pedestal}，受骗以后才发现她们的缺点。  我觉得教授也知道了我和堂妹的事，在开导我。}{
+At that time, I was studying literature, and the professor said that young men who are inexperienced with women often ``put them on a pedestal'', until they realize they have been fooled.  I thought the professor knew about my affair with cousin, and he was trying to enlighten me.
+}
 
 我的成绩一落千丈（初到美国的第一学期还是全A的），课程规定要看的小说也没心情看。 《傲慢与偏见》\footnote{1813}看了开头几页便看不下去了： \\
 \speechEn{It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife....} \\
@@ -705,14 +880,14 @@ a tender look which becomes a habit}}
 
 我很失望： \speechCn{区区一个 nested loop，妳就立即想到做\uline{汉}奸，太可耻了吧？}
 
-我对\uline{张爱玲}认识不多，但因为这件事而对她也产生了不好的印象。 据说她的小说著重描写小人物的情情塌塌，有批评者说她难登大雅之堂。
+% 我对\uline{张爱玲}认识不多，但因为这件事而对她也产生了不好的印象。 据说她的小说著重描写小人物的情情塌塌，有批评者说她难登大雅之堂。
 
-我觉得\uline{张爱玲}的样子不好看，像只蛤拐。 \uline{大陆}女友的正面虽然很漂亮，但侧面也很像蛤拐！
-\begin{figure}[H]
-\centering
-\includegraphics[scale=0.75]{Eileen-Chang.jpg}
-\caption*{\uline{张爱玲}}
-\end{figure}
+% 我觉得\uline{张爱玲}的样子不好看，像只蛤拐。 \uline{大陆}女友的正面虽然很漂亮，但侧面也很像蛤拐！
+% \begin{figure}[H]
+% \centering
+% \includegraphics[scale=0.75]{Eileen-Chang.jpg}
+% \caption*{\uline{张爱玲}}
+% \end{figure}
 
 那\uline{大陆}女友对\uline{日本}特别怀有仇恨，这在\uline{中国}人当中也算常见。 而我特别不喜欢\uline{美国}，对\uline{日本}却比较有好感。  很多\uline{中国}人念念不忘\uline{南京}大屠杀，但却忽略了\uline{日本}被原子弹炸的惩罚。 这世界上很多人抱著这种局限的历史观，难怪国际间纷争不断。
 

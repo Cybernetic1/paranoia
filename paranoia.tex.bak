@@ -219,6 +219,18 @@ a tender look which becomes a habit}}
 \tableofcontents
 \pagenumbering{gobble}
 
+\chapter*{序}
+
+发觉自己写了本人见人憎的书\\
+这不是爱情小说\\
+而是用科学的态度分析爱情\\
+而我想做到的是 universality
+
+如果妳看到想将这本书 throw away with great force\\
+那妳就是这本书的对象
+
+
+
 \chapter{妄想症}
 \pagenumbering{arabic}
 
@@ -452,7 +464,7 @@ a tender look which becomes a habit}}
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.6]{2015June.jpg}
+\includegraphics[scale=0.3]{self-portrait.png}
 \end{figure}
 
 \todo
